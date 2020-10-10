@@ -1,6 +1,35 @@
+const DB = require('../../dataBase/dataBase');
+const User = require('./user.model');
+const { USERS } = require('../../common/constants/constants');
+
 const getAll = async () => {
-  // TODO: mock implementation. should be replaced during task development
-  return [];
+  const { Users } = DB.dataBase;
+  return Users;
 };
 
-module.exports = { getAll };
+const getForId = async userId => {
+  const { Users } = DB.dataBase;
+  const user = await Users.find(({ id }) => id === userId);
+  if (!user) {
+    throw new `Couldn't find a user with id ${userId}`();
+  }
+  return user;
+};
+
+const create = async (name, login, password) => {
+  const newUser = new User({ name, login, password });
+  return await DB.create(USERS, newUser);
+};
+
+const deleteUser = async id => {
+  await DB.deleteFromDb(USERS, id);
+};
+
+const update = async (id, params) => {
+  console.log('1 ', params);
+  const entity = await DB.updateEntity(USERS, id, params);
+  console.log('update - entity', entity);
+  return entity;
+};
+
+module.exports = { getAll, getForId, create, deleteUser, update };

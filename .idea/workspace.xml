@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db9179f4-5546-4067-8a4c-7ec2fa7bf195" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common/constants/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/mock/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataBase/dataBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iftIEvOg4rqPjOxwQK9p6ihd9B" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common" />
+      <recent name="$PROJECT_DIR$/src/common/config" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db9179f4-5546-4067-8a4c-7ec2fa7bf195" name="Default Changelist" comment="" />
+      <created>1602310392103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602310392103</updated>
+      <workItem from="1602310393143" duration="15962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="397" y="176" key="SettingsEditor" timestamp="1602324862033">
+      <screen x="0" y="23" width="1792" height="1050" />
+    </state>
+    <state x="397" y="176" key="SettingsEditor/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602324862033" />
+    <state x="523" y="104" width="746" height="888" key="find.popup" timestamp="1602345073543">
+      <screen x="0" y="23" width="1792" height="1050" />
+    </state>
+    <state x="523" y="104" width="746" height="888" key="find.popup/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602345073543" />
+    <state x="702" y="300" key="refactoring.ChangeSignatureDialog" timestamp="1602333283857">
+      <screen x="0" y="23" width="1792" height="1050" />
+    </state>
+    <state x="702" y="300" key="refactoring.ChangeSignatureDialog/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602333283857" />
+    <state x="477" y="41" width="838" height="1032" key="search.everywhere.popup" timestamp="1602344956138">
+      <screen x="0" y="23" width="1792" height="1050" />
+    </state>
+    <state x="477" y="41" width="838" height="1032" key="search.everywhere.popup/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602344956138" />
+  </component>
+</project>
