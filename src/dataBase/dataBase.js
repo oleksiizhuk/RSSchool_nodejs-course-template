@@ -1,4 +1,5 @@
 const User = require('../resources/users/user.model');
+const Borad = require('../resources/boards/board.model');
 const usersMock = require('../common/mock/users');
 
 const dataBase = {
@@ -10,6 +11,7 @@ const dataBase = {
     dataBase.Users = usersMock.map(
       ({ name, login, password }) => new User({ name, login, password })
     );
+    dataBase.Boards = [new Borad()];
   }
 };
 
@@ -25,9 +27,12 @@ const dataBase = {
 //   }
 // };
 
-const getEntity = async (tableName, id) => {
+const getEntityById = async (tableName, id) => {
   const table = dataBase[tableName];
+  console.log('id - ', id);
+  console.log('table - ', table);
   const result = table.find(item => item.id === id);
+  console.log('result - ', result);
   if (!result) {
     throw `error in ${tableName} don't have entity with this id - ${id}`;
   }
@@ -38,11 +43,11 @@ const getEntity = async (tableName, id) => {
 const create = async (tableName, val) => {
   const table = dataBase[tableName];
   table.push(val);
-  return await getEntity(tableName, val.id);
+  return await getEntityById(tableName, val.id);
 };
 
 const deleteFromDb = async (tableName, id) => {
-  await getEntity(tableName, id);
+  await getEntityById(tableName, id);
   const table = dataBase[tableName];
   dataBase[tableName] = table.filter(item => item.id !== id);
 };
@@ -59,7 +64,27 @@ const updateEntity = async (tableName, id, params) => {
     return item;
   });
   console.log('3 - ', dataBase[tableName]);
-  return await getEntity(tableName, id);
+  return await getEntityById(tableName, id);
 };
 
-module.exports = { dataBase, create, deleteFromDb, updateEntity };
+const updateBoard = async (tableName, id, params) => {
+  console.log('params - ', params);
+  const table = dataBase[tableName];
+  dataBase[tableName] = table.map(item => {
+    if (item.id === id) {
+      item.title = params.title;
+      item.columns = params.columns;
+    }
+    return item;
+  });
+  return await getEntityById(tableName, id);
+};
+
+module.exports = {
+  dataBase,
+  create,
+  deleteFromDb,
+  updateEntity,
+  updateBoard,
+  getEntityById
+};

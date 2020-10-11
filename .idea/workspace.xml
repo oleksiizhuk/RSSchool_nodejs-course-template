@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="db9179f4-5546-4067-8a4c-7ec2fa7bf195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/constants/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/mock/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataBase/dataBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.memory.repository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/tasks/task.memory.repository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/tasks/task.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/tasks/task.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/tasks/task.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/constants/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/constants/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataBase/dataBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataBase/dataBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/users/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602310392103</updated>
-      <workItem from="1602310393143" duration="15962000" />
+      <workItem from="1602310393143" duration="28403000" />
     </task>
     <servers />
   </component>
@@ -69,6 +78,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="200" y="432" width="1592" height="850" key="DiffContextDialog" timestamp="1602401815556">
+      <screen x="0" y="23" width="1792" height="1050" />
+    </state>
+    <state x="200" y="432" width="1592" height="850" key="DiffContextDialog/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602401815556" />
     <state x="397" y="176" key="SettingsEditor" timestamp="1602324862033">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
@@ -81,9 +94,9 @@
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state x="702" y="300" key="refactoring.ChangeSignatureDialog/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602333283857" />
-    <state x="477" y="41" width="838" height="1032" key="search.everywhere.popup" timestamp="1602344956138">
+    <state x="477" y="41" width="838" height="1032" key="search.everywhere.popup" timestamp="1602346543956">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
-    <state x="477" y="41" width="838" height="1032" key="search.everywhere.popup/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602344956138" />
+    <state x="477" y="41" width="838" height="1032" key="search.everywhere.popup/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602346543956" />
   </component>
 </project>

@@ -1,3 +1,5 @@
 module.exports = Object.freeze({
-  USERS: 'Users'
+  USERS: 'Users',
+  BOARDS: 'Boards',
+  TASKS: 'Tasks'
 });

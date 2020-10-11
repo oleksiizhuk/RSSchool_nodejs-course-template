@@ -11,7 +11,7 @@ const getForId = async userId => {
   const { Users } = DB.dataBase;
   const user = await Users.find(({ id }) => id === userId);
   if (!user) {
-    throw new `Couldn't find a user with id ${userId}`();
+    return null;
   }
   return user;
 };
@@ -22,6 +22,7 @@ const create = async (name, login, password) => {
 };
 
 const deleteUser = async id => {
+  // drop or remove
   await DB.deleteFromDb(USERS, id);
 };
 

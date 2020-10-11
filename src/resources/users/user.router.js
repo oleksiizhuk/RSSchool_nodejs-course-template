@@ -10,6 +10,11 @@ router.route('/').get(async (req, res) => {
 
 router.route('/:id').get(async (req, res) => {
   const user = await usersService.getForId(req.params.id);
+  console.log(user);
+  if (!user) {
+    res.status(401).send('No user with this id');
+    return;
+  }
   res.json(User.toResponse(user));
 });
 
@@ -19,14 +24,15 @@ router.route('/').post(async (req, res) => {
   res.json(User.toResponse(user));
 });
 
-router.route('/:id').delete(async (req, res) => {
-  await usersService.deleteUser(req.params.id);
-  res.sendStatus(200);
-});
-
 router.route('/:id').put(async (req, res) => {
   const params = req.body;
   const user = await usersService.update(req.params.id, params);
   res.status(200).send(User.toResponse(user));
 });
+
+router.route('/:id').delete(async (req, res) => {
+  await usersService.deleteUser(req.params.id);
+  res.sendStatus(200);
+});
+
 module.exports = router;
