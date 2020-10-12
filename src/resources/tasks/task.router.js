@@ -1,5 +1,4 @@
 const router = require('express').Router({ mergeParams: true });
-
 const taskService = require('./task.service');
 
 router.route('/').get(async (req, res) => {
@@ -27,13 +26,13 @@ router.route('/:taskId').get(async (req, res) => {
 router.route('/:taskId').put(async (req, res) => {
   const { boardId, taskId } = req.params;
   const task = await taskService.updateTask(boardId, taskId, req.body);
-  res.json(task);
+  res.status(200).json(task);
 });
 
 router.route('/:taskId').delete(async (req, res) => {
   const { boardId, taskId } = req.params;
   await taskService.deleteTask(boardId, taskId);
-  res.sendStatus(204);
+  res.sendStatus(200);
 });
 
 module.exports = router;
