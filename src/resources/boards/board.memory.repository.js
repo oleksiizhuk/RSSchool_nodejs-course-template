@@ -13,7 +13,7 @@ const create = async (title, column) => {
 };
 
 const getByID = async id => {
-  const board = DB.getEntityById(BOARDS, id);
+  const board = await DB.getEntityById(BOARDS, id);
   if (!board) {
     return null;
   }
@@ -21,9 +21,7 @@ const getByID = async id => {
 };
 
 const update = async (id, params) => {
-  const entity = DB.updateBoard(BOARDS, id, params);
-  console.log('entity - ', entity);
-  return entity;
+  return await DB.updateBoard(BOARDS, id, params);
 };
 
 const drop = async id => {

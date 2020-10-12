@@ -19,4 +19,5 @@ class Task {
     this.columnId = columnId;
   }
 }
+
 module.exports = Task;

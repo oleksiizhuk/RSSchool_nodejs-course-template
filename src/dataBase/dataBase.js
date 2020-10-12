@@ -23,8 +23,7 @@ const dataBase = {
 
 const getEntityById = async (tableName, id) => {
   const table = dataBase[tableName];
-  const result = table.find(item => item.id === id);
-  return result;
+  return table.find(item => item.id === id);
 };
 
 const create = async (tableName, val) => {
@@ -88,13 +87,18 @@ const deleteUserFromTask = async id => {
 
 const updateTask = async (boardId, taskId, params) => {
   const indexBoard = await getIndexBoardById(boardId);
+  if (indexBoard === -1) {
+    return null;
+  }
   const indexTask = dataBase.Boards[indexBoard].columns.findIndex(
     item => item.id === taskId
   );
+  console.log(dataBase.Boards[indexBoard].columns[indexTask]);
   dataBase.Boards[indexBoard].columns[indexTask] = Object.assign(
     dataBase.Boards[indexBoard].columns[indexTask],
     params
   );
+  console.log(dataBase.Boards[indexBoard].columns[indexTask]);
   return dataBase.Boards[indexBoard].columns[indexTask];
 };
 

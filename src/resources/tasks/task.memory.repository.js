@@ -12,6 +12,9 @@ const createNewTaskByBoardId = async (boardId, values) => {
 
 const getTaskByBoardIdAndTaskId = async (boardId, taskId) => {
   const board = await DB.getEntityById(BOARDS, boardId);
+  if (!board) {
+    return null;
+  }
   return board.columns.find(item => item.id === taskId);
 };
 
