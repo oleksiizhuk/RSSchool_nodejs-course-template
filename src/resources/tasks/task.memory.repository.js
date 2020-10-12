@@ -7,10 +7,7 @@ const getTaskByBoardId = async boardId => {
 };
 
 const createNewTaskByBoardId = async (boardId, values) => {
-  console.log('1', boardId, values);
-  const newTask = await DB.createTask(boardId, values);
-  console.log(newTask);
-  return newTask;
+  return await DB.createTask(boardId, values);
 };
 
 const getTaskByBoardIdAndTaskId = async (boardId, taskId) => {

@@ -1,19 +1,14 @@
-// const uuid = require('uuid');
+const uuid = require('uuid');
 
 class Board {
   constructor({
-    id = '1',
+    id = uuid(),
     title = 'title',
     columns = [
       {
-        id: '2',
+        id: uuid(),
         title: 'string',
         order: 1
-      },
-      {
-        id: '3',
-        title: 'string',
-        order: 2
       }
     ]
   } = {}) {

@@ -44,14 +44,8 @@ const deleteFromDb = async (tableName, id) => {
 
 const updateEntity = async (tableName, id, params) => {
   const table = dataBase[tableName];
-  dataBase[tableName] = table.map(item => {
-    if (item.id === id) {
-      item.name = params.name;
-      item.login = params.login;
-      item.password = params.password;
-    }
-    return item;
-  });
+  const index = table.findIndex(item => item.id === id);
+  dataBase[tableName][index] = { ...Object.assign(table[index], params) };
   return await getEntityById(tableName, id);
 };
 
@@ -68,13 +62,13 @@ const updateBoard = async (tableName, id, params) => {
 };
 
 const createTask = async (boardId, values) => {
-  const boardIndex = getIndexBoardById(boardId);
+  const boardIndex = await getIndexBoardById(boardId);
   const newTask = { ...new Task({ ...values }) };
   dataBase.Boards[boardIndex].columns.push(newTask);
   return newTask;
 };
 
-const getIndexBoardById = boardId => {
+const getIndexBoardById = async boardId => {
   const indexBoard = dataBase.Boards.findIndex(item => item.id === boardId);
   if (indexBoard > 0) {
     console.log(`don't have board with this boardId ${boardId}`);
@@ -84,7 +78,7 @@ const getIndexBoardById = boardId => {
 };
 
 const deleteTask = async (boardId, taskId) => {
-  const indexBoard = getIndexBoardById(boardId);
+  const indexBoard = await getIndexBoardById(boardId);
   const indexTask = dataBase.Boards[indexBoard].columns.findIndex(
     item => item.id === taskId
   );
@@ -98,8 +92,18 @@ const deleteTask = async (boardId, taskId) => {
   return true;
 };
 
+const deleteUserFromTask = async id => {
+  return dataBase.Boards.map(item => {
+    item.columns.map(task => {
+      if (task.userId === id) {
+        task.userId = null;
+      }
+    });
+  });
+};
+
 const updateTask = async (boardId, taskId, params) => {
-  const indexBoard = getIndexBoardById(boardId);
+  const indexBoard = await getIndexBoardById(boardId);
   const indexTask = dataBase.Boards[indexBoard].columns.findIndex(
     item => item.id === taskId
   );
@@ -123,5 +127,6 @@ module.exports = {
   getEntityById,
   deleteTask,
   updateTask,
-  createTask
+  createTask,
+  deleteUserFromTask
 };

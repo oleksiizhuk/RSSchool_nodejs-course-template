@@ -4,18 +4,7 @@ const usersService = require('./user.service');
 
 router.route('/').get(async (req, res) => {
   const users = await usersService.getAll();
-  // map user fields to exclude secret fields like "password"
-  res.json(users.map(User.toResponse));
-});
-
-router.route('/:id').get(async (req, res) => {
-  const user = await usersService.getForId(req.params.id);
-  console.log(user);
-  if (!user) {
-    res.status(401).send('No user with this id');
-    return;
-  }
-  res.json(User.toResponse(user));
+  res.status(200).json(users.map(User.toResponse));
 });
 
 router.route('/').post(async (req, res) => {
@@ -24,14 +13,24 @@ router.route('/').post(async (req, res) => {
   res.json(User.toResponse(user));
 });
 
+router.route('/:id').get(async (req, res) => {
+  const { id } = req.params;
+  const user = await usersService.getById(id);
+  if (!user) {
+    res.status(401).send(`No user with this id - ${id}`);
+    return;
+  }
+  res.status(200).json(User.toResponse(user));
+});
+
 router.route('/:id').put(async (req, res) => {
   const params = req.body;
   const user = await usersService.update(req.params.id, params);
-  res.status(200).send(User.toResponse(user));
+  res.status(200).json(User.toResponse(user));
 });
 
 router.route('/:id').delete(async (req, res) => {
-  await usersService.deleteUser(req.params.id);
+  await usersService.remove(req.params.id);
   res.sendStatus(200);
 });
 

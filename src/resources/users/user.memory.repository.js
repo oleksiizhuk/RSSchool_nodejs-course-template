@@ -7,7 +7,7 @@ const getAll = async () => {
   return Users;
 };
 
-const getForId = async userId => {
+const getById = async userId => {
   const { Users } = DB.dataBase;
   const user = await Users.find(({ id }) => id === userId);
   if (!user) {
@@ -21,16 +21,13 @@ const create = async (name, login, password) => {
   return await DB.create(USERS, newUser);
 };
 
-const deleteUser = async id => {
-  // drop or remove
-  await DB.deleteFromDb(USERS, id);
-};
-
 const update = async (id, params) => {
-  console.log('1 ', params);
-  const entity = await DB.updateEntity(USERS, id, params);
-  console.log('update - entity', entity);
-  return entity;
+  return await DB.updateEntity(USERS, id, params);
 };
 
-module.exports = { getAll, getForId, create, deleteUser, update };
+const remove = async id => {
+  await DB.deleteUserFromTask(id);
+  return await DB.deleteFromDb(USERS, id);
+};
+
+module.exports = { getAll, getById, create, remove, update };

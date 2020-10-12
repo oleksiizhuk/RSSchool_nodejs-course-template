@@ -20,10 +20,3 @@ class Task {
   }
 }
 module.exports = Task;
-
-// "title": "string",
-//   "order": 0,
-//   "description": "string",
-//   "userId": "string",
-//   "boardId": "string",
-//   "columnId": "string"
