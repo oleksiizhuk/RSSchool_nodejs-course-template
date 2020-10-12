@@ -87,9 +87,9 @@ const deleteUserFromTask = async id => {
 
 const updateTask = async (boardId, taskId, params) => {
   const indexBoard = await getIndexBoardById(boardId);
-  // if (indexBoard === -1) {
-  //   return null;
-  // }
+  if (indexBoard === -1) {
+    return null;
+  }
   const indexTask = dataBase.Boards[indexBoard].columns.findIndex(
     item => item.id === taskId
   );
