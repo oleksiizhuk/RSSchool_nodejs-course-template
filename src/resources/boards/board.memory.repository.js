@@ -7,8 +7,8 @@ const getAll = async () => {
   return Boards;
 };
 
-const create = async (title, column) => {
-  const newBord = new Board({ title, column });
+const create = async (title, columns) => {
+  const newBord = new Board({ title, columns });
   return await DB.create(BOARDS, newBord);
 };
 

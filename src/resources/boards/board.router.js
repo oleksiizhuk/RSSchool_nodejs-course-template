@@ -9,7 +9,7 @@ router.route('/').get(async (req, res) => {
 router.route('/').post(async (req, res) => {
   const { title, columns } = req.body;
   const board = await boardService.create(title, columns);
-  res.status(200).json({ ...board });
+  res.status(200).json(board);
 });
 
 router.route('/:id').get(async (req, res) => {

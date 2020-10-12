@@ -58,7 +58,7 @@ const updateBoard = async (tableName, id, params) => {
 
 const createTask = async (boardId, values) => {
   const boardIndex = await getIndexBoardById(boardId);
-  const newTask = { ...new Task({ ...values }) };
+  const newTask = new Task(values);
   dataBase.Boards[boardIndex].columns.push(newTask);
   return newTask;
 };
@@ -87,18 +87,16 @@ const deleteUserFromTask = async id => {
 
 const updateTask = async (boardId, taskId, params) => {
   const indexBoard = await getIndexBoardById(boardId);
-  if (indexBoard === -1) {
-    return null;
-  }
+  // if (indexBoard === -1) {
+  //   return null;
+  // }
   const indexTask = dataBase.Boards[indexBoard].columns.findIndex(
     item => item.id === taskId
   );
-  console.log(dataBase.Boards[indexBoard].columns[indexTask]);
   dataBase.Boards[indexBoard].columns[indexTask] = Object.assign(
     dataBase.Boards[indexBoard].columns[indexTask],
     params
   );
-  console.log(dataBase.Boards[indexBoard].columns[indexTask]);
   return dataBase.Boards[indexBoard].columns[indexTask];
 };
 
