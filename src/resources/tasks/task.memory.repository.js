@@ -12,14 +12,7 @@ const createNewTaskByBoardId = async (boardId, values) => {
 
 const getTaskByBoardIdAndTaskId = async (boardId, taskId) => {
   const board = await DB.getEntityById(BOARDS, boardId);
-  if (!board) {
-    return `don't have board with this boardId ${boardId}`;
-  }
-  const task = board.columns.find(item => item.id === taskId);
-  if (!task) {
-    return `don't have task with this taskId ${taskId}`;
-  }
-  return task;
+  return board.columns.find(item => item.id === taskId);
 };
 
 const updateTask = async (boardId, taskId, params) => {
@@ -27,7 +20,7 @@ const updateTask = async (boardId, taskId, params) => {
 };
 
 const deleteTask = async (boardId, taskId) => {
-  await DB.deleteTask(boardId, taskId);
+  return await DB.deleteTask(boardId, taskId);
 };
 
 module.exports = {

@@ -24,9 +24,6 @@ const dataBase = {
 const getEntityById = async (tableName, id) => {
   const table = dataBase[tableName];
   const result = table.find(item => item.id === id);
-  if (!result) {
-    throw `error in ${tableName} don't have entity with this id - ${id}`;
-  }
   return result;
 };
 
@@ -37,7 +34,6 @@ const create = async (tableName, val) => {
 };
 
 const deleteFromDb = async (tableName, id) => {
-  await getEntityById(tableName, id);
   const table = dataBase[tableName];
   dataBase[tableName] = table.filter(item => item.id !== id);
 };
@@ -69,23 +65,11 @@ const createTask = async (boardId, values) => {
 };
 
 const getIndexBoardById = async boardId => {
-  const indexBoard = dataBase.Boards.findIndex(item => item.id === boardId);
-  if (indexBoard > 0) {
-    console.log(`don't have board with this boardId ${boardId}`);
-    return false;
-  }
-  return indexBoard;
+  return dataBase.Boards.findIndex(item => item.id === boardId);
 };
 
 const deleteTask = async (boardId, taskId) => {
   const indexBoard = await getIndexBoardById(boardId);
-  const indexTask = dataBase.Boards[indexBoard].columns.findIndex(
-    item => item.id === taskId
-  );
-  if (indexTask < 0) {
-    console.log(`don't have task with this taskId ${taskId}`);
-    return false;
-  }
   dataBase.Boards[indexBoard].columns = dataBase.Boards[
     indexBoard
   ].columns.filter(item => item.id !== taskId);
@@ -107,10 +91,6 @@ const updateTask = async (boardId, taskId, params) => {
   const indexTask = dataBase.Boards[indexBoard].columns.findIndex(
     item => item.id === taskId
   );
-  if (indexTask < 0) {
-    console.log(`don't have task with this taskId ${taskId}`);
-    return false;
-  }
   dataBase.Boards[indexBoard].columns[indexTask] = Object.assign(
     dataBase.Boards[indexBoard].columns[indexTask],
     params
