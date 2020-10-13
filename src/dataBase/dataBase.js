@@ -8,12 +8,12 @@ const dataBase = {
   Users: [],
   Boards: [],
   Tasks: [],
-
   init: () => {
     dataBase.Users = usersMock.map(
       ({ name, login, password }) => new User({ name, login, password })
     );
     dataBase.Boards = [new Board()];
+    dataBase.Tasks = [new Task()];
   }
 };
 
@@ -22,8 +22,17 @@ const dataBase = {
 })();
 
 const getEntityById = async (tableName, id) => {
-  const table = dataBase[tableName];
-  return table.find(item => item.id === id);
+  return dataBase[tableName].find(item => item.id === id);
+};
+
+const getAllItems = async (tableName, id) => {
+  return dataBase[tableName].filter(el => el.boardId === id);
+};
+
+const getTaskById = async (tableName, boardId, taskId) => {
+  return dataBase[tableName].find(
+    el => el.id === taskId && el.boardId === boardId
+  );
 };
 
 const create = async (tableName, val) => {
@@ -37,6 +46,21 @@ const deleteFromDb = async (tableName, id) => {
   dataBase[tableName] = table.filter(item => item.id !== id);
 };
 
+const deleteBoard = async (tableName, boardId) => {
+  const table = dataBase[tableName];
+  dataBase[tableName] = table.filter(item => item.id !== boardId);
+  dataBase.Tasks = dataBase.Tasks.filter(item => item.boardId !== boardId);
+};
+
+const deleteTask = async (boardId, taskId) => {
+  dataBase.Tasks = dataBase.Tasks.filter(el => {
+    if (el.id === taskId && el.boardId === boardId) {
+      return;
+    }
+    return el;
+  });
+};
+
 const updateEntity = async (tableName, id, params) => {
   const table = dataBase[tableName];
   const index = table.findIndex(item => item.id === id);
@@ -44,71 +68,31 @@ const updateEntity = async (tableName, id, params) => {
   return await getEntityById(tableName, id);
 };
 
-const updateBoard = async (tableName, id, params) => {
-  const table = dataBase[tableName];
-  dataBase[tableName] = table.map(item => {
-    if (item.id === id) {
-      item.title = params.title;
-      item.columns = params.columns;
-    }
-    return item;
-  });
-  return await getEntityById(tableName, id);
-};
-
-const createTask = async (boardId, values) => {
-  const boardIndex = await getIndexBoardById(boardId);
-  const newTask = new Task(values);
-  dataBase.Boards[boardIndex].columns.push(newTask);
-  return newTask;
-};
-
-const getIndexBoardById = async boardId => {
-  return dataBase.Boards.findIndex(item => item.id === boardId);
-};
-
-const deleteTask = async (boardId, taskId) => {
-  const indexBoard = await getIndexBoardById(boardId);
-  dataBase.Boards[indexBoard].columns = dataBase.Boards[
-    indexBoard
-  ].columns.filter(item => item.id !== taskId);
-  return true;
-};
-
 const deleteUserFromTask = async id => {
-  return dataBase.Boards.map(item => {
-    item.columns.map(task => {
-      if (task.userId === id) {
-        task.userId = null;
-      }
-    });
+  return dataBase.Tasks.map(task => {
+    if (task.userId === id) {
+      task.userId = null;
+    }
   });
 };
 
 const updateTask = async (boardId, taskId, params) => {
-  const indexBoard = await getIndexBoardById(boardId);
-  if (indexBoard === -1) {
-    return null;
-  }
-  const indexTask = dataBase.Boards[indexBoard].columns.findIndex(
-    item => item.id === taskId
+  const indexTask = dataBase.Tasks.findIndex(
+    el => el.boardId === boardId && el.id === taskId
   );
-  dataBase.Boards[indexBoard].columns[indexTask] = Object.assign(
-    dataBase.Boards[indexBoard].columns[indexTask],
-    params
-  );
-  return dataBase.Boards[indexBoard].columns[indexTask];
+  dataBase.Tasks[indexTask] = Object.assign(dataBase.Tasks[indexTask], params);
+  return dataBase.Tasks[indexTask];
 };
 
 module.exports = {
-  dataBase,
   create,
   deleteFromDb,
   updateEntity,
-  updateBoard,
   getEntityById,
   deleteTask,
   updateTask,
-  createTask,
-  deleteUserFromTask
+  deleteUserFromTask,
+  getTaskById,
+  getAllItems,
+  deleteBoard
 };

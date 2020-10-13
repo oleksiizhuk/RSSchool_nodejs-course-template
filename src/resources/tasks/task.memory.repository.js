@@ -1,21 +1,17 @@
 const DB = require('../../dataBase/dataBase');
-const { BOARDS } = require('../../common/constants/constants');
+const { TASKS } = require('../../common/constants/constants');
+const Task = require('./task.model');
 
 const getTaskByBoardId = async boardId => {
-  const { columns } = await DB.getEntityById(BOARDS, boardId);
-  return columns;
+  return await DB.getAllItems(TASKS, boardId);
 };
 
-const createNewTaskByBoardId = async (boardId, values) => {
-  return await DB.createTask(boardId, values);
+const createNewTask = async (boardId, values) => {
+  return await DB.create(TASKS, new Task({ ...values, boardId }));
 };
 
 const getTaskByBoardIdAndTaskId = async (boardId, taskId) => {
-  const board = await DB.getEntityById(BOARDS, boardId);
-  if (!board) {
-    return null;
-  }
-  return board.columns.find(item => item.id === taskId);
+  return await DB.getTaskById(TASKS, boardId, taskId);
 };
 
 const updateTask = async (boardId, taskId, params) => {
@@ -28,7 +24,7 @@ const deleteTask = async (boardId, taskId) => {
 
 module.exports = {
   getTaskByBoardId,
-  createNewTaskByBoardId,
+  createNewTask,
   getTaskByBoardIdAndTaskId,
   updateTask,
   deleteTask

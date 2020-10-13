@@ -17,7 +17,7 @@ router.route('/:taskId').get(async (req, res) => {
   const { boardId, taskId } = req.params;
   const task = await taskService.getTaskByBoardIdAndTaskId(boardId, taskId);
   if (task) {
-    res.json(task);
+    res.status(200).json(task);
   } else {
     res.status(404).send(`Task with id ${taskId} not found`);
   }

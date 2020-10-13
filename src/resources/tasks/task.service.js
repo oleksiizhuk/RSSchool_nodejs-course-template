@@ -3,7 +3,7 @@ const taskRepo = require('./task.memory.repository');
 const getTaskByBoardId = async boardId => taskRepo.getTaskByBoardId(boardId);
 
 const createNewTaskByBoardId = async (boardId, value) =>
-  taskRepo.createNewTaskByBoardId(boardId, value);
+  taskRepo.createNewTask(boardId, value);
 
 const getTaskByBoardIdAndTaskId = async (boardId, taskId) =>
   taskRepo.getTaskByBoardIdAndTaskId(boardId, taskId);

@@ -3,22 +3,15 @@ const User = require('./user.model');
 const { USERS } = require('../../common/constants/constants');
 
 const getAll = async () => {
-  const { Users } = DB.dataBase;
-  return Users;
+  return await DB.getAllItems(USERS);
 };
 
 const getById = async userId => {
-  const { Users } = DB.dataBase;
-  const user = await Users.find(({ id }) => id === userId);
-  if (!user) {
-    return null;
-  }
-  return user;
+  return await DB.getEntityById(USERS, userId);
 };
 
 const create = async (name, login, password) => {
-  const newUser = new User({ name, login, password });
-  return await DB.create(USERS, newUser);
+  return await DB.create(USERS, new User({ name, login, password }));
 };
 
 const update = async (id, params) => {

@@ -4,10 +4,10 @@ const getAll = async () => boardRepo.getAll();
 
 const create = async (title, columns) => boardRepo.create(title, columns);
 
-const getById = async id => boardRepo.getByID(id);
+const getById = async boardId => boardRepo.getByID(boardId);
 
-const update = async (id, params) => boardRepo.update(id, params);
+const update = async (boardId, params) => boardRepo.update(boardId, params);
 
-const drop = async id => boardRepo.drop(id);
+const drop = async boardId => boardRepo.drop(boardId);
 
 module.exports = { getAll, create, getById, update, drop };
