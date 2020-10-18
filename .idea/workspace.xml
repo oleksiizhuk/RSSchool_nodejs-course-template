@@ -36,14 +36,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db9179f4-5546-4067-8a4c-7ec2fa7bf195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/errorHandler/errorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logger/logging.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logger/winstoneConfig.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataBase/dataBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataBase/dataBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/constants/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/constants/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/errorHandler/errorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorHandler/errorHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logger/logging.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/logger/logging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logger/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logger/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logger/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logger/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logger/logs/warm.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logger/logs/warm.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logger/winstoneConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/logger/winstoneConfig.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/boards/board.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.js" afterDir="false" />
@@ -126,7 +127,7 @@
       <workItem from="1602592758605" duration="784000" />
       <workItem from="1602608962328" duration="13501000" />
       <workItem from="1602928493854" duration="37626000" />
-      <workItem from="1603036442031" duration="4829000" />
+      <workItem from="1603036442031" duration="12554000" />
     </task>
     <servers />
   </component>
@@ -192,16 +193,20 @@
       <screen x="0" y="23" width="1792" height="1052" />
     </state>
     <state x="484" y="291" key="IDE.errors.dialog/-1920.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1602964872598" />
-    <state x="457" y="95" key="SettingsEditor" timestamp="1602928899744">
+    <state x="524" y="259" key="RollbackChangesDialog" timestamp="1603048623355">
+      <screen x="0" y="23" width="1792" height="1052" />
+    </state>
+    <state x="524" y="259" key="RollbackChangesDialog/-1920.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1603048623355" />
+    <state x="457" y="95" key="SettingsEditor" timestamp="1603045329472">
       <screen x="0" y="23" width="1792" height="1052" />
     </state>
     <state x="457" y="95" key="SettingsEditor/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602609021277" />
-    <state x="457" y="95" key="SettingsEditor/-1920.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1602928899744" />
-    <state x="523" y="104" width="746" height="890" key="find.popup" timestamp="1603036737797">
+    <state x="457" y="95" key="SettingsEditor/-1920.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1603045329472" />
+    <state x="523" y="104" width="746" height="890" key="find.popup" timestamp="1603047922279">
       <screen x="0" y="23" width="1792" height="1052" />
     </state>
     <state x="523" y="104" width="746" height="888" key="find.popup/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602629256757" />
-    <state x="523" y="104" width="746" height="890" key="find.popup/-1920.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1603036737797" />
+    <state x="523" y="104" width="746" height="890" key="find.popup/-1920.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1603047922279" />
     <state x="-1360" y="145" width="800" height="894" key="find.popup/-1920.63.1920.1057/1792.63.1920.1057/0.23.1792.1050@-1920.63.1920.1057" timestamp="1602492277124" />
     <state x="523" y="104" width="746" height="888" key="find.popup/-1920.63.1920.1057/1792.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602489276259" />
     <state x="702" y="300" key="refactoring.ChangeSignatureDialog" timestamp="1602333283857">

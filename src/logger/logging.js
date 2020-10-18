@@ -1,15 +1,15 @@
 const { finished } = require('stream');
 const winston = require('./winstoneConfig');
+const { INFO } = require('../common/constants/constants');
 
-const logger = (req, res, next) => {
-  console.log(' ============== logger ==============');
+const loggerMiddleware = (req, res, next) => {
   const { method, originalUrl } = req;
   const { statusCode } = res;
   const start = Date.now();
   finished(res, () => {
-    console.log('finished');
     const ms = Date.now() - start;
-    winston.info(
+    logger(
+      INFO,
       `${originalUrl}, ${method}, ${statusCode}, [${ms}ms], ${JSON.stringify(
         req.params
       )}, ${JSON.stringify(req.body)}`.replace(/\r?\n|\r/g, '')
@@ -18,4 +18,8 @@ const logger = (req, res, next) => {
   next();
 };
 
-module.exports = logger;
+const logger = (status = INFO, val) => {
+  winston[status](val);
+};
+
+module.exports = { logger, loggerMiddleware };

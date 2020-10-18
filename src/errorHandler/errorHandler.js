@@ -1,47 +1,37 @@
-const logger = require('../logger/winstoneConfig');
+const { logger } = require('../logger/logging');
+const { ERROR } = require('../common/constants/constants');
 
 process.on('uncaughtException', error => {
-  console.log(`1 uncaughtException ${JSON.stringify(error.message)}`);
-  logger.error(
-    `uncaughtException capture error: ${JSON.stringify(error.message)}`
-  );
+  logger(ERROR, `uncaughtException error: ${JSON.stringify(error.message)}`);
   const exit = process.exit;
   exit(1);
 });
 
 process.on('unhandledRejection', error => {
-  console.log(`1 unhandledRejection ${JSON.stringify(error.message)}`);
-  logger.error(
-    `unhandledRejection capture error: ${JSON.stringify(error.message)}`
-  );
+  logger(ERROR, `unhandledRejection error: ${JSON.stringify(error.message)}`);
   const exit = process.exit;
   exit(1);
 });
 
-const errorHandler = (error, req, res) => {
-  console.log('============== errorHandler ==============');
-  console.log(error.status);
-
-  if (error.status === 404) {
-    console.log('andrey popal');
-    const errMessage = { error: { msg: `${error.message}` } };
-    // console.log(errMessage);
-    logger.error(errMessage);
-    return res.status(error.status).json(errMessage);
-  }
-
-  // res.status(error.status || 500);
-  // res.json({
-  //   error: {
-  //     message: error.message
-  //   }
-  // });
-
-  res.status(error.status || 500).json({
-    error: error.message || 'Internal server error'
-  });
-  // res.end();
-  // next();
+const badRoute = async (req, res, next) => {
+  const err = new Error('Not found');
+  err.status = 404;
+  next(err);
 };
 
-module.exports = errorHandler;
+const asyncErrorHandler = callback => async (req, res, next) => {
+  try {
+    return await callback(req, res, next);
+  } catch (error) {
+    return next(error);
+  }
+};
+// eslint-disable-next-line no-unused-vars
+const errorHandler = (error, req, res, next) => {
+  const { message, status } = error;
+  const errMessage = { error: { msg: message } };
+  logger(ERROR, errMessage);
+  return res.status(status).json(errMessage);
+};
+
+module.exports = { errorHandler, asyncErrorHandler, badRoute };
