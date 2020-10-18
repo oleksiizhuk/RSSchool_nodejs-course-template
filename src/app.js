@@ -5,7 +5,8 @@ const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
-
+const { loggerMiddleware } = require('./logger/logging');
+const { errorHandler, badRoute } = require('./errorHandler/errorHandler');
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
@@ -21,8 +22,16 @@ app.use('/', (req, res, next) => {
   next();
 });
 
+app.use(loggerMiddleware);
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
+app.use(badRoute);
+// app.use(async (req, res, next) => {
+//   const err = new Error('Not found');
+//   err.status = 404;
+//   next(err);
+// });
+app.use(errorHandler);
 
 module.exports = app;
