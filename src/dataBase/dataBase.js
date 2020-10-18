@@ -64,7 +64,7 @@ const deleteTask = async (boardId, taskId) => {
 const updateEntity = async (tableName, id, params) => {
   const table = dataBase[tableName];
   const index = table.findIndex(item => item.id === id);
-  dataBase[tableName][index] = { ...Object.assign(table[index], params) };
+  dataBase[tableName][index] = { ...table[index], ...params };
   return await getEntityById(tableName, id);
 };
 
@@ -80,7 +80,7 @@ const updateTask = async (boardId, taskId, params) => {
   const indexTask = dataBase.Tasks.findIndex(
     el => el.boardId === boardId && el.id === taskId
   );
-  dataBase.Tasks[indexTask] = Object.assign(dataBase.Tasks[indexTask], params);
+  dataBase.Tasks[indexTask] = { ...dataBase.Tasks[indexTask], ...params };
   return dataBase.Tasks[indexTask];
 };
 

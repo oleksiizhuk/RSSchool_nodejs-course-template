@@ -1,0 +1,231 @@
+{"message":"/asd98, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:51:57.528Z"}
+{"message":"/asd98, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:51:58.592Z"}
+{"message":"/boards, POST, 200, [3ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T15:55:04.379Z"}
+{"message":"/boards, POST, 200, [0ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T15:55:04.382Z"}
+{"message":"/users, GET, 200, [0ms], {}, {}","level":"info","timestamp":"2020-10-18T15:55:04.382Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks, POST, 200, [1ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\"}, {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T15:55:04.384Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks, GET, 200, [1ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.387Z"}
+{"message":"/boards, GET, 200, [1ms], {}, {}","level":"info","timestamp":"2020-10-18T15:55:04.388Z"}
+{"message":"/users, POST, 200, [1ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T15:55:04.390Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks, GET, 200, [0ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.392Z"}
+{"message":"/users/a189d9ef-62f3-4cce-8905-6016c462f32b, GET, 200, [0ms], {\"id\":\"a189d9ef-62f3-4cce-8905-6016c462f32b\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.393Z"}
+{"message":"/boards, GET, 200, [1ms], {}, {}","level":"info","timestamp":"2020-10-18T15:55:04.395Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks/10035aa6-4cd8-4fe7-8788-91d4c7a82041, GET, 200, [1ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\",\"taskId\":\"10035aa6-4cd8-4fe7-8788-91d4c7a82041\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.396Z"}
+{"message":"/users/a189d9ef-62f3-4cce-8905-6016c462f32b, DELETE, 200, [1ms], {\"id\":\"a189d9ef-62f3-4cce-8905-6016c462f32b\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.397Z"}
+{"message":"/boards/e29dcb3a-4858-4580-9cb1-212d92274281, GET, 200, [1ms], {\"id\":\"e29dcb3a-4858-4580-9cb1-212d92274281\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.398Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks, POST, 200, [0ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\"}, {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T15:55:04.399Z"}
+{"message":"/users, POST, 200, [1ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T15:55:04.401Z"}
+{"message":"/boards, POST, 200, [0ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T15:55:04.402Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks/861df6ba-2e8c-44f6-a26e-14dfd512fea7, DELETE, 200, [0ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\",\"taskId\":\"861df6ba-2e8c-44f6-a26e-14dfd512fea7\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.403Z"}
+{"message":"/boards/4bdfaf53-ff9c-413b-8921-65fde7bb21c0, DELETE, 200, [1ms], {\"id\":\"4bdfaf53-ff9c-413b-8921-65fde7bb21c0\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.410Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks, POST, 200, [1ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\"}, {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T15:55:04.411Z"}
+{"message":"/users/78c6f76e-8f8a-48e6-94e5-947163bf8e6b, DELETE, 200, [1ms], {\"id\":\"78c6f76e-8f8a-48e6-94e5-947163bf8e6b\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.412Z"}
+{"message":"/boards, POST, 200, [0ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T15:55:04.413Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks/dcfedd27-dd6b-4a72-b5d1-3e30890d3902, PUT, 200, [1ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\",\"taskId\":\"dcfedd27-dd6b-4a72-b5d1-3e30890d3902\"}, {\"id\":\"dcfedd27-dd6b-4a72-b5d1-3e30890d3902\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\",\"columnId\":null}","level":"info","timestamp":"2020-10-18T15:55:04.415Z"}
+{"message":"/users, POST, 200, [1ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T15:55:04.416Z"}
+{"message":"/boards/c622a29e-432b-4858-b0de-8ac7f0be9bd2, PUT, 200, [1ms], {\"id\":\"c622a29e-432b-4858-b0de-8ac7f0be9bd2\"}, {\"id\":\"c622a29e-432b-4858-b0de-8ac7f0be9bd2\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T15:55:04.417Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks/dcfedd27-dd6b-4a72-b5d1-3e30890d3902, GET, 200, [1ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\",\"taskId\":\"dcfedd27-dd6b-4a72-b5d1-3e30890d3902\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.418Z"}
+{"message":"/users/d2ce2f7b-35aa-4d91-88a8-12e2457cab11, PUT, 200, [1ms], {\"id\":\"d2ce2f7b-35aa-4d91-88a8-12e2457cab11\"}, {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"d2ce2f7b-35aa-4d91-88a8-12e2457cab11\"}","level":"info","timestamp":"2020-10-18T15:55:04.419Z"}
+{"message":"/boards/c622a29e-432b-4858-b0de-8ac7f0be9bd2, GET, 200, [1ms], {\"id\":\"c622a29e-432b-4858-b0de-8ac7f0be9bd2\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.420Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks/10035aa6-4cd8-4fe7-8788-91d4c7a82041, GET, 200, [1ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\",\"taskId\":\"10035aa6-4cd8-4fe7-8788-91d4c7a82041\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.421Z"}
+{"message":"/users/d2ce2f7b-35aa-4d91-88a8-12e2457cab11, GET, 200, [1ms], {\"id\":\"d2ce2f7b-35aa-4d91-88a8-12e2457cab11\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.422Z"}
+{"message":"/boards/c622a29e-432b-4858-b0de-8ac7f0be9bd2, DELETE, 200, [0ms], {\"id\":\"c622a29e-432b-4858-b0de-8ac7f0be9bd2\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.422Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks/10035aa6-4cd8-4fe7-8788-91d4c7a82041, DELETE, 200, [0ms], {\"boardId\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\",\"taskId\":\"10035aa6-4cd8-4fe7-8788-91d4c7a82041\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.423Z"}
+{"message":"/users/d2ce2f7b-35aa-4d91-88a8-12e2457cab11, DELETE, 200, [0ms], {\"id\":\"d2ce2f7b-35aa-4d91-88a8-12e2457cab11\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.424Z"}
+{"message":"/boards, POST, 200, [1ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T15:55:04.426Z"}
+{"message":"/users, POST, 200, [0ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T15:55:04.427Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f/tasks/10035aa6-4cd8-4fe7-8788-91d4c7a82041, GET, 200, [3ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:55:04.429Z"}
+{"message":"/boards/e248ebb2-bc75-499d-b530-9f4886b21bef, DELETE, 200, [0ms], {\"id\":\"e248ebb2-bc75-499d-b530-9f4886b21bef\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.430Z"}
+{"message":"/users/2449f883-ef49-4419-b1f3-20e6bdabd4e0, DELETE, 200, [0ms], {\"id\":\"2449f883-ef49-4419-b1f3-20e6bdabd4e0\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.431Z"}
+{"message":"/boards/af14c775-5b08-41b7-a3e4-9fcc0ba1b03f, DELETE, 200, [1ms], {\"id\":\"af14c775-5b08-41b7-a3e4-9fcc0ba1b03f\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.432Z"}
+{"message":"/boards/e248ebb2-bc75-499d-b530-9f4886b21bef, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:55:04.433Z"}
+{"message":"/users, POST, 200, [1ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T15:55:04.434Z"}
+{"message":"/boards, POST, 200, [0ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T15:55:04.435Z"}
+{"message":"/boards, POST, 200, [0ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T15:55:04.436Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks, POST, 200, [1ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\"}, {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T15:55:04.439Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks, POST, 200, [1ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\"}, {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T15:55:04.440Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks, POST, 200, [0ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\"}, {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T15:55:04.441Z"}
+{"message":"/boards/34b5a0dc-61f6-4f24-b271-628cec98b8cc/tasks, POST, 200, [0ms], {\"boardId\":\"34b5a0dc-61f6-4f24-b271-628cec98b8cc\"}, {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"f81bbe3c-6ec5-4a35-9ca0-c4aa506ba11c\",\"boardId\":\"34b5a0dc-61f6-4f24-b271-628cec98b8cc\"}","level":"info","timestamp":"2020-10-18T15:55:04.442Z"}
+{"message":"/boards/34b5a0dc-61f6-4f24-b271-628cec98b8cc/tasks, POST, 200, [1ms], {\"boardId\":\"34b5a0dc-61f6-4f24-b271-628cec98b8cc\"}, {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"f81bbe3c-6ec5-4a35-9ca0-c4aa506ba11c\",\"boardId\":\"34b5a0dc-61f6-4f24-b271-628cec98b8cc\"}","level":"info","timestamp":"2020-10-18T15:55:04.443Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks, POST, 200, [1ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\"}, {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T15:55:04.444Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks, POST, 200, [1ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\"}, {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T15:55:04.445Z"}
+{"message":"/users/f81bbe3c-6ec5-4a35-9ca0-c4aa506ba11c, DELETE, 200, [1ms], {\"id\":\"f81bbe3c-6ec5-4a35-9ca0-c4aa506ba11c\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.446Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/173c310a-dc8f-4416-a5a5-07d53488bcdc, GET, 200, [1ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"taskId\":\"173c310a-dc8f-4416-a5a5-07d53488bcdc\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.448Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/947107e5-964e-4bf2-a6b2-8c4bc2d9496f, GET, 200, [0ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"taskId\":\"947107e5-964e-4bf2-a6b2-8c4bc2d9496f\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.448Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/d40cec66-646b-46b1-8e6b-44c3ba8da652, GET, 200, [1ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"taskId\":\"d40cec66-646b-46b1-8e6b-44c3ba8da652\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.449Z"}
+{"message":"/boards/34b5a0dc-61f6-4f24-b271-628cec98b8cc/tasks/8698b923-d635-4a00-a4d0-e9b332140881, GET, 200, [1ms], {\"boardId\":\"34b5a0dc-61f6-4f24-b271-628cec98b8cc\",\"taskId\":\"8698b923-d635-4a00-a4d0-e9b332140881\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.450Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/8744e377-1912-4072-a803-8878dfb84214, GET, 200, [0ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"taskId\":\"8744e377-1912-4072-a803-8878dfb84214\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.450Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/6ee0a8b8-e094-489e-8e92-000d47176150, GET, 200, [0ms], {\"boardId\":\"79951c26-ea80-4cfa-a861-1d447d165820\",\"taskId\":\"6ee0a8b8-e094-489e-8e92-000d47176150\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.451Z"}
+{"message":"/boards/34b5a0dc-61f6-4f24-b271-628cec98b8cc/tasks/47a4b6c8-2fa7-47b1-b3f3-5a9c033db0ed, GET, 200, [0ms], {\"boardId\":\"34b5a0dc-61f6-4f24-b271-628cec98b8cc\",\"taskId\":\"47a4b6c8-2fa7-47b1-b3f3-5a9c033db0ed\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.452Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820, DELETE, 200, [1ms], {\"id\":\"79951c26-ea80-4cfa-a861-1d447d165820\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.453Z"}
+{"message":"/boards/34b5a0dc-61f6-4f24-b271-628cec98b8cc/tasks/47a4b6c8-2fa7-47b1-b3f3-5a9c033db0ed, DELETE, 200, [0ms], {\"boardId\":\"34b5a0dc-61f6-4f24-b271-628cec98b8cc\",\"taskId\":\"47a4b6c8-2fa7-47b1-b3f3-5a9c033db0ed\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.454Z"}
+{"message":"/boards/34b5a0dc-61f6-4f24-b271-628cec98b8cc/tasks/8698b923-d635-4a00-a4d0-e9b332140881, DELETE, 200, [1ms], {\"boardId\":\"34b5a0dc-61f6-4f24-b271-628cec98b8cc\",\"taskId\":\"8698b923-d635-4a00-a4d0-e9b332140881\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.455Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/947107e5-964e-4bf2-a6b2-8c4bc2d9496f, GET, 200, [2ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:55:04.457Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/d40cec66-646b-46b1-8e6b-44c3ba8da652, GET, 200, [2ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:55:04.458Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/173c310a-dc8f-4416-a5a5-07d53488bcdc, GET, 200, [2ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:55:04.458Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/6ee0a8b8-e094-489e-8e92-000d47176150, GET, 200, [3ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:55:04.459Z"}
+{"message":"/boards/79951c26-ea80-4cfa-a861-1d447d165820/tasks/8744e377-1912-4072-a803-8878dfb84214, GET, 200, [3ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:55:04.459Z"}
+{"message":"/boards/34b5a0dc-61f6-4f24-b271-628cec98b8cc, DELETE, 200, [0ms], {\"id\":\"34b5a0dc-61f6-4f24-b271-628cec98b8cc\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.460Z"}
+{"message":"/boards/7dc60082-6cb6-473e-897a-780a96b37d0a, DELETE, 200, [0ms], {\"id\":\"7dc60082-6cb6-473e-897a-780a96b37d0a\"}, {}","level":"info","timestamp":"2020-10-18T15:55:04.461Z"}
+{"message":"/asd98, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:56:19.791Z"}
+{"message":"/asd98, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:56:36.938Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:56:41.401Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:56:58.811Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:57:50.010Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:58:39.695Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:59:07.534Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:59:29.161Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:59:34.761Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:59:36.145Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T15:59:56.611Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:00:21.782Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:00:33.858Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:01:05.744Z"}
+{"message":"/qwe, GET, 200, [0ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:01:28.906Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:01:48.000Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:02:04.373Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:02:27.465Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:02:53.640Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:03:07.695Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:03:17.174Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:03:30.676Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:03:40.286Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:03:53.009Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:04:02.227Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:04:51.253Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:05:19.564Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:05:35.580Z"}
+{"message":"/asd9, GET, 200, [3ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:07:12.443Z"}
+{"message":"/asd9, GET, 200, [3ms], {}, {}","level":"info","timestamp":"2020-10-18T16:08:15.426Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:08:25.587Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:09:17.722Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:10:35.221Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:13:57.424Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:14:50.254Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:15:35.193Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:15:45.941Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:16:15.173Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:16:20.373Z"}
+{"message":"/asd9, GET, 200, [0ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:16:20.889Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:16:33.456Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:17:06.249Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:18:26.409Z"}
+{"message":"/asd9, GET, 200, [6ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:20:07.118Z"}
+{"message":"/asd9, GET, 200, [0ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:20:35.416Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:20:38.118Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:21:19.397Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:21:50.736Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:21:56.576Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:22:03.317Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:22:27.570Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:22:29.098Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:22:30.828Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:22:46.456Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:22:56.051Z"}
+{"message":"/asd9, GET, 200, [6ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:23:04.105Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:26:29.243Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:30:18.028Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:30:26.298Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:31:41.134Z"}
+{"message":"/asd9, GET, 200, [63ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:33:24.983Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:34:59.803Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:36:57.339Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:37:41.777Z"}
+{"message":"/asd9, GET, 200, [0ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:37:47.599Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:41:19.641Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:41:47.445Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:42:06.158Z"}
+{"message":"/asd9, GET, 200, [0ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:42:06.861Z"}
+{"message":"/asd9, GET, 200, [5ms], {\"0\":\"/asd9\"}, {}","level":"info","timestamp":"2020-10-18T16:42:27.693Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:42:48.486Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:43:50.320Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:44:38.234Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:44:55.156Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:47:48.427Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:48:01.327Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:48:15.232Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:52:52.293Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:52:58.656Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:52:59.836Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:54:57.918Z"}
+{"message":"/asd9, GET, 200, [0ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:55:12.218Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:55:20.066Z"}
+{"message":"/asd9, GET, 200, [0ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:55:23.912Z"}
+{"message":"/asd9, GET, 200, [84301ms], {}, {}","level":"info","timestamp":"2020-10-18T16:58:42.472Z"}
+{"message":"/asd9, GET, 200, [2687ms], {}, {}","level":"info","timestamp":"2020-10-18T16:58:46.364Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T16:59:24.268Z"}
+{"message":"/asd9, GET, 200, [5ms], {}, {}","level":"info","timestamp":"2020-10-18T16:59:40.784Z"}
+{"message":"/asd9, GET, 200, [4ms], {}, {}","level":"info","timestamp":"2020-10-18T17:00:19.030Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:02:38.112Z"}
+{"message":"/asd9, GET, 200, [4ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:03:51.427Z"}
+{"message":"/asd9, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:04:08.944Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:04:12.080Z"}
+{"message":"/asd9, GET, 200, [5ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:04:32.910Z"}
+{"message":"/asd9, GET, 200, [5ms], {}, {}","level":"info","timestamp":"2020-10-18T17:08:13.030Z"}
+{"message":"/boards, POST, 200, [3ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T17:15:17.131Z"}
+{"message":"/boards, GET, 200, [1ms], {}, {}","level":"info","timestamp":"2020-10-18T17:15:17.136Z"}
+{"message":"/boards, GET, 200, [0ms], {}, {}","level":"info","timestamp":"2020-10-18T17:15:17.142Z"}
+{"message":"/boards/6aeb824b-6601-47e9-8837-1f8158595463, GET, 200, [1ms], {\"id\":\"6aeb824b-6601-47e9-8837-1f8158595463\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.145Z"}
+{"message":"/boards, POST, 200, [1ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T17:15:17.149Z"}
+{"message":"/boards/5c345918-987d-4c5c-be91-bf328742a0ba, DELETE, 200, [1ms], {\"id\":\"5c345918-987d-4c5c-be91-bf328742a0ba\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.152Z"}
+{"message":"/boards, POST, 200, [1ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T17:15:17.155Z"}
+{"message":"/boards/94971a15-2ca2-4c9a-b420-9e2722fe5c46, PUT, 200, [0ms], {\"id\":\"94971a15-2ca2-4c9a-b420-9e2722fe5c46\"}, {\"id\":\"94971a15-2ca2-4c9a-b420-9e2722fe5c46\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T17:15:17.157Z"}
+{"message":"/boards/94971a15-2ca2-4c9a-b420-9e2722fe5c46, GET, 200, [0ms], {\"id\":\"94971a15-2ca2-4c9a-b420-9e2722fe5c46\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.159Z"}
+{"message":"/boards/94971a15-2ca2-4c9a-b420-9e2722fe5c46, DELETE, 200, [1ms], {\"id\":\"94971a15-2ca2-4c9a-b420-9e2722fe5c46\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.162Z"}
+{"message":"/boards, POST, 200, [0ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T17:15:17.164Z"}
+{"message":"/boards/49c76777-71e5-4b2d-bedc-4aee4a77471d, DELETE, 200, [0ms], {\"id\":\"49c76777-71e5-4b2d-bedc-4aee4a77471d\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.166Z"}
+{"message":"/boards/49c76777-71e5-4b2d-bedc-4aee4a77471d, GET, 200, [2ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:15:17.170Z"}
+{"message":"/boards, POST, 200, [1ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T17:15:17.173Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks, POST, 200, [1ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\"}, {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T17:15:17.177Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks, POST, 200, [1ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\"}, {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T17:15:17.178Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks, POST, 200, [0ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\"}, {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T17:15:17.179Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks, POST, 200, [0ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\"}, {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T17:15:17.180Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks, POST, 200, [1ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\"}, {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T17:15:17.182Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/1d8faf0b-3538-48f8-8e92-164b85bab208, GET, 200, [1ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"taskId\":\"1d8faf0b-3538-48f8-8e92-164b85bab208\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.185Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/8a1ebd4a-7b81-4f8c-af04-f442e198657c, GET, 200, [1ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"taskId\":\"8a1ebd4a-7b81-4f8c-af04-f442e198657c\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.187Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/fb472de8-3f5a-4ba1-8eae-aa8190c11965, GET, 200, [0ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"taskId\":\"fb472de8-3f5a-4ba1-8eae-aa8190c11965\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.187Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/c70472a0-878f-43d8-b271-2857717be878, GET, 200, [0ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"taskId\":\"c70472a0-878f-43d8-b271-2857717be878\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.188Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/44072e53-f225-4e89-b9f5-9e9236af1b07, GET, 200, [0ms], {\"boardId\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\",\"taskId\":\"44072e53-f225-4e89-b9f5-9e9236af1b07\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.189Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a, DELETE, 200, [0ms], {\"id\":\"405674d0-f8ec-4317-8440-f5a4e620cb3a\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.191Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/1d8faf0b-3538-48f8-8e92-164b85bab208, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:15:17.195Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/8a1ebd4a-7b81-4f8c-af04-f442e198657c, GET, 200, [1ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:15:17.195Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/fb472de8-3f5a-4ba1-8eae-aa8190c11965, GET, 200, [2ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:15:17.198Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/c70472a0-878f-43d8-b271-2857717be878, GET, 200, [2ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:15:17.198Z"}
+{"message":"/boards/405674d0-f8ec-4317-8440-f5a4e620cb3a/tasks/44072e53-f225-4e89-b9f5-9e9236af1b07, GET, 200, [2ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:15:17.199Z"}
+{"message":"/boards/af84729c-530f-4d2f-b3b1-0cde99769f46, DELETE, 200, [1ms], {\"id\":\"af84729c-530f-4d2f-b3b1-0cde99769f46\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.201Z"}
+{"message":"/boards, POST, 200, [0ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T17:15:17.284Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks, POST, 200, [1ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\"}, {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T17:15:17.286Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks, GET, 200, [1ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.288Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks, GET, 200, [0ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.291Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks/c3d54338-e5cc-45ac-bb7a-0661adc3ed16, GET, 200, [0ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\",\"taskId\":\"c3d54338-e5cc-45ac-bb7a-0661adc3ed16\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.296Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks, POST, 200, [0ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\"}, {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T17:15:17.299Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks/85474cbc-1408-46ed-91c1-2c3ec72a0154, DELETE, 200, [0ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\",\"taskId\":\"85474cbc-1408-46ed-91c1-2c3ec72a0154\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.305Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks, POST, 200, [1ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\"}, {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-10-18T17:15:17.308Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks/088b79e5-1589-4d99-b639-2ceb719ad8ae, PUT, 200, [1ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\",\"taskId\":\"088b79e5-1589-4d99-b639-2ceb719ad8ae\"}, {\"id\":\"088b79e5-1589-4d99-b639-2ceb719ad8ae\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\",\"columnId\":null}","level":"info","timestamp":"2020-10-18T17:15:17.310Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks/088b79e5-1589-4d99-b639-2ceb719ad8ae, GET, 200, [0ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\",\"taskId\":\"088b79e5-1589-4d99-b639-2ceb719ad8ae\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.311Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks/c3d54338-e5cc-45ac-bb7a-0661adc3ed16, GET, 200, [0ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\",\"taskId\":\"c3d54338-e5cc-45ac-bb7a-0661adc3ed16\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.313Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks/c3d54338-e5cc-45ac-bb7a-0661adc3ed16, DELETE, 200, [1ms], {\"boardId\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\",\"taskId\":\"c3d54338-e5cc-45ac-bb7a-0661adc3ed16\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.315Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f/tasks/c3d54338-e5cc-45ac-bb7a-0661adc3ed16, GET, 200, [0ms], undefined, {}","level":"info","timestamp":"2020-10-18T17:15:17.316Z"}
+{"message":"/boards/eed12e9b-f611-4afc-8da2-75234bffc92f, DELETE, 200, [1ms], {\"id\":\"eed12e9b-f611-4afc-8da2-75234bffc92f\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.318Z"}
+{"message":"/users, GET, 200, [1ms], {}, {}","level":"info","timestamp":"2020-10-18T17:15:17.405Z"}
+{"message":"/users, POST, 200, [0ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T17:15:17.407Z"}
+{"message":"/users/583dc20c-9e5f-4d7c-a715-f7595408f148, GET, 200, [1ms], {\"id\":\"583dc20c-9e5f-4d7c-a715-f7595408f148\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.410Z"}
+{"message":"/users/583dc20c-9e5f-4d7c-a715-f7595408f148, DELETE, 200, [1ms], {\"id\":\"583dc20c-9e5f-4d7c-a715-f7595408f148\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.412Z"}
+{"message":"/users, POST, 200, [0ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T17:15:17.414Z"}
+{"message":"/users/2e6f6ada-3be3-480f-8d89-3ae4507633ca, DELETE, 200, [0ms], {\"id\":\"2e6f6ada-3be3-480f-8d89-3ae4507633ca\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.416Z"}
+{"message":"/users, POST, 200, [1ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T17:15:17.419Z"}
+{"message":"/users/9e9491c7-4c39-4ce1-9cdb-08efff8ce8ab, PUT, 200, [1ms], {\"id\":\"9e9491c7-4c39-4ce1-9cdb-08efff8ce8ab\"}, {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"9e9491c7-4c39-4ce1-9cdb-08efff8ce8ab\"}","level":"info","timestamp":"2020-10-18T17:15:17.421Z"}
+{"message":"/users/9e9491c7-4c39-4ce1-9cdb-08efff8ce8ab, GET, 200, [0ms], {\"id\":\"9e9491c7-4c39-4ce1-9cdb-08efff8ce8ab\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.422Z"}
+{"message":"/users/9e9491c7-4c39-4ce1-9cdb-08efff8ce8ab, DELETE, 200, [0ms], {\"id\":\"9e9491c7-4c39-4ce1-9cdb-08efff8ce8ab\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.423Z"}
+{"message":"/users, POST, 200, [0ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T17:15:17.425Z"}
+{"message":"/users/e205112f-30a3-41c2-85ba-9b6b6c8d104b, DELETE, 200, [0ms], {\"id\":\"e205112f-30a3-41c2-85ba-9b6b6c8d104b\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.426Z"}
+{"message":"/users, POST, 200, [0ms], {}, {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-10-18T17:15:17.428Z"}
+{"message":"/boards, POST, 200, [1ms], {}, {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-10-18T17:15:17.430Z"}
+{"message":"/boards/cd5232a1-b793-43c9-9147-8a21d196b5bf/tasks, POST, 200, [1ms], {\"boardId\":\"cd5232a1-b793-43c9-9147-8a21d196b5bf\"}, {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"78dc53e6-4e30-4371-a0ce-d6993f1ba4c2\",\"boardId\":\"cd5232a1-b793-43c9-9147-8a21d196b5bf\"}","level":"info","timestamp":"2020-10-18T17:15:17.432Z"}
+{"message":"/boards/cd5232a1-b793-43c9-9147-8a21d196b5bf/tasks, POST, 200, [1ms], {\"boardId\":\"cd5232a1-b793-43c9-9147-8a21d196b5bf\"}, {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"78dc53e6-4e30-4371-a0ce-d6993f1ba4c2\",\"boardId\":\"cd5232a1-b793-43c9-9147-8a21d196b5bf\"}","level":"info","timestamp":"2020-10-18T17:15:17.433Z"}
+{"message":"/users/78dc53e6-4e30-4371-a0ce-d6993f1ba4c2, DELETE, 200, [0ms], {\"id\":\"78dc53e6-4e30-4371-a0ce-d6993f1ba4c2\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.434Z"}
+{"message":"/boards/cd5232a1-b793-43c9-9147-8a21d196b5bf/tasks/039195d5-4d97-4316-a582-de7bff234b63, GET, 200, [1ms], {\"boardId\":\"cd5232a1-b793-43c9-9147-8a21d196b5bf\",\"taskId\":\"039195d5-4d97-4316-a582-de7bff234b63\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.436Z"}
+{"message":"/boards/cd5232a1-b793-43c9-9147-8a21d196b5bf/tasks/11d17595-d7ab-4548-9959-0ccc6a7472e9, GET, 200, [0ms], {\"boardId\":\"cd5232a1-b793-43c9-9147-8a21d196b5bf\",\"taskId\":\"11d17595-d7ab-4548-9959-0ccc6a7472e9\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.437Z"}
+{"message":"/boards/cd5232a1-b793-43c9-9147-8a21d196b5bf/tasks/11d17595-d7ab-4548-9959-0ccc6a7472e9, DELETE, 200, [1ms], {\"boardId\":\"cd5232a1-b793-43c9-9147-8a21d196b5bf\",\"taskId\":\"11d17595-d7ab-4548-9959-0ccc6a7472e9\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.439Z"}
+{"message":"/boards/cd5232a1-b793-43c9-9147-8a21d196b5bf/tasks/039195d5-4d97-4316-a582-de7bff234b63, DELETE, 200, [0ms], {\"boardId\":\"cd5232a1-b793-43c9-9147-8a21d196b5bf\",\"taskId\":\"039195d5-4d97-4316-a582-de7bff234b63\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.439Z"}
+{"message":"/boards/cd5232a1-b793-43c9-9147-8a21d196b5bf, DELETE, 200, [0ms], {\"id\":\"cd5232a1-b793-43c9-9147-8a21d196b5bf\"}, {}","level":"info","timestamp":"2020-10-18T17:15:17.440Z"}
