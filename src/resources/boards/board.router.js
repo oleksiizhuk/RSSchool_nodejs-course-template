@@ -2,48 +2,45 @@ const router = require('express').Router();
 const boardService = require('./board.service');
 const { OK, NO_CONTENT, NOT_FOUND } = require('http-status-codes');
 const { asyncErrorHandler } = require('../../errorHandler/errorHandler');
+const { toResponse } = require('./board.model');
 
 router.route('/').get(
   asyncErrorHandler(async (req, res) => {
     const boards = await boardService.getAll();
-    res.status(OK).json(boards);
+    res.status(OK).json(boards.map(toResponse));
   })
 );
 
 router.route('/').post(
   asyncErrorHandler(async (req, res) => {
-    const { title, columns } = req.body;
-    const board = await boardService.create(title, columns);
-    res.status(OK).json(board);
+    const board = await boardService.create(req.body);
+    res.status(OK).json(toResponse(board));
   })
 );
 
 router.route('/:id').get(
   asyncErrorHandler(async (req, res, next) => {
-    const { id } = req.params;
-    const board = await boardService.getById(id);
+    const board = await boardService.getById(req.params.id);
     if (board) {
-      res.status(OK).json(board);
+      res.status(OK).json(toResponse(board));
     } else {
-      const err = new Error(`Board with id ${id} not found`);
+      const err = new Error(`Board with id ${req.params.id} not found`);
       err.status = NOT_FOUND;
       return next(err);
-      // res.status(NOT_FOUND).send(`Board with id ${id} not found`);
     }
   })
 );
 
 router.route('/:id').put(
   asyncErrorHandler(async (req, res) => {
-    const { id } = req.params;
-    const board = await boardService.update(id, req.body);
-    res.status(OK).json(board);
+    const board = await boardService.update(req.params.id, req.body);
+    res.status(OK).json(toResponse(board));
   })
 );
 
 router.route('/:id').delete(
   asyncErrorHandler(async (req, res) => {
-    await boardService.drop(req.params.id);
+    await boardService.remove(req.params.id);
     res.sendStatus(NO_CONTENT);
   })
 );

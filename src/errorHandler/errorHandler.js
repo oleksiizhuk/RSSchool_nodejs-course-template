@@ -26,12 +26,13 @@ const asyncErrorHandler = callback => async (req, res, next) => {
     return next(error);
   }
 };
+
 // eslint-disable-next-line no-unused-vars
 const errorHandler = (error, req, res, next) => {
   const { message, status } = error;
   const errMessage = { error: { msg: message } };
   logger(ERROR, errMessage);
-  return res.status(status).json(errMessage);
+  return res.status(status || 500).json(errMessage);
 };
 
 module.exports = { errorHandler, asyncErrorHandler, badRoute };

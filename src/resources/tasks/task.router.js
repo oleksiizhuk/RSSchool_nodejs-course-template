@@ -2,29 +2,28 @@ const router = require('express').Router({ mergeParams: true });
 const taskService = require('./task.service');
 const { OK, NO_CONTENT, NOT_FOUND } = require('http-status-codes');
 const { asyncErrorHandler } = require('../../errorHandler/errorHandler');
+const { toResponse } = require('./task.model');
 
 router.route('/').get(
   asyncErrorHandler(async (req, res) => {
-    const { boardId } = req.params;
-    const tasks = await taskService.getTaskByBoardId(boardId);
-    res.status(OK).json(tasks);
+    const tasks = await taskService.getTaskByBoardId(req.params.boardId);
+    res.status(OK).json(tasks.map(toResponse));
   })
 );
 
 router.route('/').post(
   asyncErrorHandler(async (req, res) => {
-    const { boardId } = req.params;
-    const newTask = await taskService.createNewTaskByBoardId(boardId, req.body);
-    res.status(OK).json(newTask);
+    const newTask = await taskService.create(req.params.boardId, req.body);
+    res.status(OK).json(toResponse(newTask));
   })
 );
 
 router.route('/:taskId').get(
   asyncErrorHandler(async (req, res, next) => {
     const { boardId, taskId } = req.params;
-    const task = await taskService.getTaskByBoardIdAndTaskId(boardId, taskId);
+    const task = await taskService.getByBoardAndTaskId(boardId, taskId);
     if (task) {
-      res.status(OK).json(task);
+      res.status(OK).json(toResponse(task));
     } else {
       const err = new Error(`Task with id ${taskId} not found`);
       err.status = NOT_FOUND;
