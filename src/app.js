@@ -27,11 +27,6 @@ app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
 app.use(badRoute);
-// app.use(async (req, res, next) => {
-//   const err = new Error('Not found');
-//   err.status = 404;
-//   next(err);
-// });
 app.use(errorHandler);
 
 module.exports = app;

@@ -1,18 +1,18 @@
-const User = require('../resources/users/user.model');
-const Board = require('../resources/boards/board.model');
+// const User = require('../resources/users/user.model');
+// const Board = require('../resources/boards/board.model');
 const Task = require('../resources/tasks/task.model');
 
-const usersMock = require('../common/mock/users');
+// const usersMock = require('../common/mock/users');
 
 const dataBase = {
   Users: [],
   Boards: [],
   Tasks: [],
   init: () => {
-    dataBase.Users = usersMock.map(
-      ({ name, login, password }) => new User({ name, login, password })
-    );
-    dataBase.Boards = [new Board()];
+    // dataBase.Users = usersMock.map(
+    //   ({ name, login, password }) => new User({ name, login, password })
+    // );
+    // dataBase.Boards = [new Board()];
     dataBase.Tasks = [new Task()];
   }
 };

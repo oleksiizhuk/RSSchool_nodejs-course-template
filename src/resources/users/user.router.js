@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const User = require('./user.model');
+const { toResponse } = require('./user.model');
 const usersService = require('./user.service');
 const { OK, NO_CONTENT, BAD_REQUEST } = require('http-status-codes');
 const { asyncErrorHandler } = require('../../errorHandler/errorHandler');
@@ -7,15 +7,14 @@ const { asyncErrorHandler } = require('../../errorHandler/errorHandler');
 router.route('/').get(
   asyncErrorHandler(async (req, res) => {
     const users = await usersService.getAll();
-    res.status(OK).json(users.map(User.toResponse));
+    res.status(OK).json(users.map(toResponse));
   })
 );
 
 router.route('/').post(
   asyncErrorHandler(async (req, res) => {
-    const { name, login, password } = req.body;
-    const user = await usersService.create(name, login, password);
-    res.status(OK).json(User.toResponse(user));
+    const user = await usersService.create(req.body);
+    res.status(OK).json(toResponse(user));
   })
 );
 
@@ -28,7 +27,7 @@ router.route('/:id').get(
       err.status = BAD_REQUEST;
       return next(err);
     }
-    res.status(OK).json(User.toResponse(user));
+    res.status(OK).json(toResponse(user));
   })
 );
 
@@ -41,7 +40,7 @@ router.route('/:id').put(
       err.status = BAD_REQUEST;
       return next(err);
     }
-    res.status(OK).json(User.toResponse(user));
+    res.status(OK).json(toResponse(user));
   })
 );
 
