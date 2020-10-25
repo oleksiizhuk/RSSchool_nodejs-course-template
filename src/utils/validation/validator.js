@@ -1,5 +1,3 @@
-// const Joi = require('joi');
-const Joi = require('joi');
 const { BAD_REQUEST, UNPROCESSABLE_ENTITY } = require('http-status-codes');
 
 const errorResponse = errors => {
@@ -14,7 +12,7 @@ const errorResponse = errors => {
 
 const validator = (schema, property) => {
   return (req, res, next) => {
-    const { error } = Joi.validate(req[property], schema);
+    const { error } = schema.validate(req[property]);
     if (error) {
       res
         .status(property === 'body' ? UNPROCESSABLE_ENTITY : BAD_REQUEST)

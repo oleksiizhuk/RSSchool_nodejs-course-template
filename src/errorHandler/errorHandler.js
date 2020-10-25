@@ -29,7 +29,6 @@ const asyncErrorHandler = callback => async (req, res, next) => {
 
 // eslint-disable-next-line no-unused-vars
 const errorHandler = (error, req, res, next) => {
-  console.log(error);
   const { message, status } = error;
   const errMessage = { error: { msg: message } };
   logger(ERROR, errMessage);

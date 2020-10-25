@@ -1,5 +1,5 @@
 const { User } = require('./user.model');
-const Task = require('../tasks/task.model');
+const { Task } = require('../tasks/task.model');
 
 const getAll = async () => User.find({});
 

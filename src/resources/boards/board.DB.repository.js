@@ -1,7 +1,8 @@
-const Board = require('./board.model');
-const Task = require('../tasks/task.model');
+const { Board } = require('./board.model');
+const { Task } = require('../tasks/task.model');
 const { NOT_FOUND } = require('http-status-codes');
 const { ObjectId } = require('mongoose').Types;
+
 const getAll = async () => await Board.find({});
 
 const create = async board => Board.create(board);
@@ -12,7 +13,6 @@ const getById = async id => {
     const err = new Error(`board was not found id ${id}`);
     err.status = NOT_FOUND;
     throw err;
-    // throw 'board was not found';
   }
   return board;
 };
@@ -24,7 +24,6 @@ const remove = async boardId => {
     throw err;
   }
   const board = await Board.findOne({ _id: boardId });
-  // console.log('board ', board);
   if (!board) {
     const err = new Error('Not Found');
     err.status = NOT_FOUND;

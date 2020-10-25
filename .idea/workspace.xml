@@ -36,31 +36,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db9179f4-5546-4067-8a4c-7ec2fa7bf195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.DB.repository.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/tasks/task.DB.repository.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/users/user.DB.repository.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/schemas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataBase/dataBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataBase/dataBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/errorHandler/errorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorHandler/errorHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger/logs/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger/logs/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger/logs/warm.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataBase/dataBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.DB.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.DB.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.memory.repository.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/boards/board.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/boards/board.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.DB.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.DB.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.memory.repository.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/users/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.DB.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.DB.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/users/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/schemas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validation/schemas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validation/validator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +94,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils/validation" />
       <recent name="$PROJECT_DIR$/src/loaders" />
       <recent name="$PROJECT_DIR$/src/common" />
       <recent name="$PROJECT_DIR$/src/common/config" />
@@ -208,7 +199,7 @@
       <workItem from="1603386475272" duration="5886000" />
       <workItem from="1603446624210" duration="513000" />
       <workItem from="1603454961774" duration="1183000" />
-      <workItem from="1603536413630" duration="30007000" />
+      <workItem from="1603536413630" duration="41266000" />
     </task>
     <servers />
   </component>
@@ -291,11 +282,11 @@
       <screen x="0" y="23" width="1792" height="1052" />
     </state>
     <state x="513" y="23" width="534" height="810" key="dock-window-1/-1920.63.1920.1057/0.23.1792.1052@-1920.63.1920.1057" timestamp="1603615284479" />
-    <state x="523" y="104" width="746" height="890" key="find.popup" timestamp="1603613341329">
+    <state x="523" y="104" width="746" height="890" key="find.popup" timestamp="1603639416371">
       <screen x="0" y="23" width="1792" height="1052" />
     </state>
     <state x="523" y="104" width="746" height="888" key="find.popup/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602629256757" />
-    <state x="523" y="104" width="746" height="890" key="find.popup/-1920.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1603613341329" />
+    <state x="523" y="104" width="746" height="890" key="find.popup/-1920.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1603639416371" />
     <state x="-1360" y="145" width="800" height="894" key="find.popup/-1920.63.1920.1057/1792.63.1920.1057/0.23.1792.1050@-1920.63.1920.1057" timestamp="1602492277124" />
     <state x="523" y="104" width="746" height="888" key="find.popup/-1920.63.1920.1057/1792.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602489276259" />
     <state x="523" y="104" width="746" height="890" key="find.popup/-1920.63.1920.1057/1792.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1603459515526" />

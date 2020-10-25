@@ -3,17 +3,17 @@ Joi.objectId = require('joi-objectid')(Joi);
 const UUID_VERSION = 'uuidv4';
 
 const schemas = {
-  taskId: {
+  taskId: Joi.object({
     id: Joi.string()
       .guid({ version: UUID_VERSION })
       .required(),
     boardId: Joi.string()
       .guid({ version: UUID_VERSION })
       .required()
-  },
-  id: {
+  }),
+  id: Joi.object({
     id: Joi.objectId().required()
-  },
+  }),
   user: Joi.object()
     .options({ abortEarly: false, allowUnknown: true })
     .keys({

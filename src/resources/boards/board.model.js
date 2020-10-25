@@ -9,16 +9,12 @@ const Board = new Schema(
   { collection: 'Board' }
 );
 
-module.exports = mongoose.model('boards', Board);
+const toResponse = ({ columns, _id, title }) => {
+  return {
+    columns,
+    id: _id,
+    title
+  };
+};
 
-// const uuid = require('uuid');
-//
-// class Board {
-//   constructor({ id = uuid(), title = 'title', columns = [] } = {}) {
-//     this.id = id;
-//     this.title = title;
-//     this.columns = columns;
-//   }
-// }
-//
-// module.exports = Board;
+module.exports = { Board: mongoose.model('boards', Board), toResponse };
