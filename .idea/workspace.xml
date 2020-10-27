@@ -38,10 +38,10 @@
     <list default="true" id="db9179f4-5546-4067-8a4c-7ec2fa7bf195" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logger/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logger/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logger/logs/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logger/logs/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logger/logs/warm.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/validation/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validation/validator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +191,7 @@
       <workItem from="1603446624210" duration="513000" />
       <workItem from="1603454961774" duration="1183000" />
       <workItem from="1603536413630" duration="41266000" />
-      <workItem from="1603818795409" duration="1265000" />
+      <workItem from="1603818795409" duration="2869000" />
     </task>
     <servers />
   </component>
@@ -292,17 +292,5 @@
     <state x="477" y="41" width="838" height="1032" key="search.everywhere.popup/-1920.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602528947461" />
     <state x="477" y="41" width="838" height="1034" key="search.everywhere.popup/-1920.63.1920.1057/0.23.1792.1052@0.23.1792.1052" timestamp="1603559648235" />
     <state x="477" y="41" width="838" height="1032" key="search.everywhere.popup/-1920.63.1920.1057/1792.63.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1602489645625" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/resources/users/user.router.js</url>
-          <line>18</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
