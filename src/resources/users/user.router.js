@@ -3,7 +3,7 @@ const { toResponse } = require('./user.model');
 const usersService = require('./user.service');
 const { OK, NO_CONTENT, BAD_REQUEST } = require('http-status-codes');
 const { asyncErrorHandler } = require('../../errorHandler/errorHandler');
-const { id, user } = require('../../utils/validation/schemas');
+const { id } = require('../../utils/validation/schemas');
 const validator = require('../../utils/validation/validator');
 
 router.route('/').get(
@@ -15,7 +15,6 @@ router.route('/').get(
 
 router.post(
   '/',
-  validator(user, 'body'),
   asyncErrorHandler(async (req, res) => {
     const newUser = await usersService.create(req.body);
     res.status(OK).json(toResponse(newUser));
@@ -34,7 +33,6 @@ router.get(
 router.put(
   '/:id',
   validator(id, 'params'),
-  validator(user, 'body'),
   asyncErrorHandler(async (req, res, next) => {
     const params = req.body;
     const updatedUser = await usersService.update(req.params.id, params);

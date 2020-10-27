@@ -268,3 +268,34 @@
 {"message":{"error":{"msg":"Task with id 5f95e0e9cf98a841f7eb5a63 not found"}},"level":"error","timestamp":"2020-10-25T20:32:42.310Z"}
 {"message":{"error":{"msg":"Task with id 5f95e0e9cf98a841f7eb5a61 not found"}},"level":"error","timestamp":"2020-10-25T20:32:42.313Z"}
 {"message":{"error":{"msg":"Task with id 5f95e0e9cf98a841f7eb5a62 not found"}},"level":"error","timestamp":"2020-10-25T20:32:42.313Z"}
+{"message":{"error":{"msg":"Task with id 5f95e1df1164dc43e4485dd1 not found"}},"level":"error","timestamp":"2020-10-25T20:36:48.843Z"}
+{"message":{"error":{"msg":"board was not found id 5f95e1e01164dc43e4485dd9"}},"level":"error","timestamp":"2020-10-25T20:36:49.303Z"}
+{"message":{"error":{"msg":"Task with id 5f95e1e11164dc43e4485de0 not found"}},"level":"error","timestamp":"2020-10-25T20:36:49.774Z"}
+{"message":{"error":{"msg":"Task with id 5f95e1e11164dc43e4485de3 not found"}},"level":"error","timestamp":"2020-10-25T20:36:49.777Z"}
+{"message":{"error":{"msg":"Task with id 5f95e1e11164dc43e4485de1 not found"}},"level":"error","timestamp":"2020-10-25T20:36:49.778Z"}
+{"message":{"error":{"msg":"Task with id 5f95e1e11164dc43e4485de2 not found"}},"level":"error","timestamp":"2020-10-25T20:36:49.780Z"}
+{"message":{"error":{"msg":"Task with id 5f95e1e11164dc43e4485de4 not found"}},"level":"error","timestamp":"2020-10-25T20:36:49.781Z"}
+{"message":{"error":{"msg":"Task with id 5f985537d609ef3e97ec833a not found"}},"level":"error","timestamp":"2020-10-27T17:13:28.329Z"}
+{"message":{"error":{"msg":"board was not found id 5f985538d609ef3e97ec8342"}},"level":"error","timestamp":"2020-10-27T17:13:28.704Z"}
+{"message":{"error":{"msg":"Task with id 5f985538d609ef3e97ec834a not found"}},"level":"error","timestamp":"2020-10-27T17:13:29.249Z"}
+{"message":{"error":{"msg":"Task with id 5f985538d609ef3e97ec8349 not found"}},"level":"error","timestamp":"2020-10-27T17:13:29.267Z"}
+{"message":{"error":{"msg":"Task with id 5f985538d609ef3e97ec834c not found"}},"level":"error","timestamp":"2020-10-27T17:13:29.268Z"}
+{"message":{"error":{"msg":"Task with id 5f985538d609ef3e97ec834b not found"}},"level":"error","timestamp":"2020-10-27T17:13:29.270Z"}
+{"message":{"error":{"msg":"Task with id 5f985538d609ef3e97ec834d not found"}},"level":"error","timestamp":"2020-10-27T17:13:29.272Z"}
+{"message":{"error":{"msg":"Not found"}},"level":"error","timestamp":"2020-10-27T17:26:01.029Z"}
+{"message":{"error":{"msg":"Not found"}},"level":"error","timestamp":"2020-10-27T17:36:07.066Z"}
+{"message":{"error":{"msg":"Not found"}},"level":"error","timestamp":"2020-10-27T17:38:44.352Z"}
+{"message":{"error":{"msg":"Task with id 5f985cb9f7a36a40902e962e not found"}},"level":"error","timestamp":"2020-10-27T17:45:30.955Z"}
+{"message":{"error":{"msg":"board was not found id 5f985cbbf7a36a40902e9636"}},"level":"error","timestamp":"2020-10-27T17:45:31.427Z"}
+{"message":{"error":{"msg":"Task with id 5f985cbbf7a36a40902e963d not found"}},"level":"error","timestamp":"2020-10-27T17:45:31.921Z"}
+{"message":{"error":{"msg":"Task with id 5f985cbbf7a36a40902e963e not found"}},"level":"error","timestamp":"2020-10-27T17:45:31.922Z"}
+{"message":{"error":{"msg":"Task with id 5f985cbbf7a36a40902e9640 not found"}},"level":"error","timestamp":"2020-10-27T17:45:31.923Z"}
+{"message":{"error":{"msg":"Task with id 5f985cbbf7a36a40902e963f not found"}},"level":"error","timestamp":"2020-10-27T17:45:31.924Z"}
+{"message":{"error":{"msg":"Task with id 5f985cbbf7a36a40902e9641 not found"}},"level":"error","timestamp":"2020-10-27T17:45:31.925Z"}
+{"message":{"error":{"msg":"Task with id 5f985d19f3727f40dda3025e not found"}},"level":"error","timestamp":"2020-10-27T17:47:06.355Z"}
+{"message":{"error":{"msg":"board was not found id 5f985d1af3727f40dda30266"}},"level":"error","timestamp":"2020-10-27T17:47:06.819Z"}
+{"message":{"error":{"msg":"Task with id 5f985d1af3727f40dda3026d not found"}},"level":"error","timestamp":"2020-10-27T17:47:07.291Z"}
+{"message":{"error":{"msg":"Task with id 5f985d1af3727f40dda3026c not found"}},"level":"error","timestamp":"2020-10-27T17:47:07.292Z"}
+{"message":{"error":{"msg":"Task with id 5f985d1af3727f40dda3026e not found"}},"level":"error","timestamp":"2020-10-27T17:47:07.295Z"}
+{"message":{"error":{"msg":"Task with id 5f985d1af3727f40dda3026f not found"}},"level":"error","timestamp":"2020-10-27T17:47:07.297Z"}
+{"message":{"error":{"msg":"Task with id 5f985d1af3727f40dda30270 not found"}},"level":"error","timestamp":"2020-10-27T17:47:07.298Z"}

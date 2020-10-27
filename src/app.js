@@ -8,11 +8,18 @@ const taskRouter = require('./resources/tasks/task.router');
 const { loggerMiddleware } = require('./logger/logging');
 const { errorHandler, badRoute } = require('./errorHandler/errorHandler');
 const app = express();
+const cors = require('cors');
+const helmet = require('helmet');
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
 app.use(express.json());
 
+app.disable('x-powered-by');
+
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
+
+app.use(helmet());
+app.use(cors());
 
 app.use('/', (req, res, next) => {
   if (req.originalUrl === '/') {
