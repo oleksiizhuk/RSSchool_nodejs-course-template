@@ -7,7 +7,7 @@ const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
 const loginRouter = require('./resources/login/login.router');
 const checkAuth = require('./utils/checkUath/checkUath');
-const { loggerMiddleware } = require('./logger/logging');
+const { loggerQuery } = require('./logger/logging');
 const { errorHandler, badRoute } = require('./errorHandler/errorHandler');
 const app = express();
 const cors = require('cors');
@@ -32,7 +32,7 @@ app.use('/', (req, res, next) => {
   next();
 });
 
-app.use(loggerMiddleware);
+app.use(loggerQuery);
 
 app.use(checkAuth);
 

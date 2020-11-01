@@ -2,7 +2,7 @@ const { finished } = require('stream');
 const winston = require('./winstoneConfig');
 const { INFO } = require('../common/constants/constants');
 
-const loggerMiddleware = (req, res, next) => {
+const loggerQuery = (req, res, next) => {
   const { method, originalUrl } = req;
   const { statusCode } = res;
   const start = Date.now();
@@ -22,4 +22,4 @@ const logger = (status = INFO, val) => {
   winston[status](val);
 };
 
-module.exports = { logger, loggerMiddleware };
+module.exports = { logger, loggerQuery };
