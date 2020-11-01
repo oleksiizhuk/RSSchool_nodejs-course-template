@@ -11,7 +11,7 @@ const getByBoardAndTaskId = async (boardId, taskId) =>
   });
 
 const updateTask = async (boardId, taskId, params) =>
-  Task.updateOne({ boardId, _id: taskId }, params);
+  Task.updateOne({ boardId, _id: taskId }, params, { new: true });
 
 const deleteTask = async (boardId, taskId) =>
   Task.deleteOne({ _id: taskId, boardId });

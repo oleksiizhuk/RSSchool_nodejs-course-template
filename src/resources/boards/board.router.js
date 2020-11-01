@@ -3,6 +3,8 @@ const boardService = require('./board.service');
 const { OK, NO_CONTENT, NOT_FOUND } = require('http-status-codes');
 const { asyncErrorHandler } = require('../../errorHandler/errorHandler');
 const { toResponse } = require('./board.model');
+const { id } = require('../../utils/validation/schemas');
+const validator = require('../../utils/validation/validator');
 
 router.route('/').get(
   asyncErrorHandler(async (req, res) => {
@@ -18,16 +20,17 @@ router.route('/').post(
   })
 );
 
-router.route('/:id').get(
+router.get(
+  '/:id',
+  validator(id, 'params'),
   asyncErrorHandler(async (req, res, next) => {
     const board = await boardService.getById(req.params.id);
-    if (board) {
-      res.status(OK).json(toResponse(board));
-    } else {
+    if (!board) {
       const err = new Error(`Board with id ${req.params.id} not found`);
       err.status = NOT_FOUND;
       return next(err);
     }
+    return res.status(OK).json(toResponse(board));
   })
 );
 

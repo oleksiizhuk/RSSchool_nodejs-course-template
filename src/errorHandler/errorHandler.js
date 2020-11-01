@@ -1,5 +1,6 @@
 const { logger } = require('../logger/logging');
 const { ERROR } = require('../common/constants/constants');
+const { NOT_FOUND } = require('http-status-codes');
 
 process.on('uncaughtException', error => {
   logger(ERROR, `uncaughtException error: ${JSON.stringify(error.message)}`);
@@ -15,7 +16,7 @@ process.on('unhandledRejection', error => {
 
 const badRoute = async (req, res, next) => {
   const err = new Error('Not found');
-  err.status = 404;
+  err.status = NOT_FOUND;
   next(err);
 };
 
