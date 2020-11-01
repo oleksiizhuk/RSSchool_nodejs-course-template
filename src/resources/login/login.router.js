@@ -13,7 +13,6 @@ router.post(
       err.status = FORBIDDEN;
       return next(err);
     }
-    console.log('TOKEN rty - ', token);
     res.status(OK).json({ token });
   })
 );
