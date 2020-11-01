@@ -1,4 +1,4 @@
-const { BAD_REQUEST, UNPROCESSABLE_ENTITY } = require('http-status-codes');
+const { BAD_REQUEST, UNAUTHORIZED } = require('http-status-codes');
 
 const errorResponse = errors => {
   return {
@@ -15,7 +15,7 @@ const validator = (schema, property) => {
     const { error } = schema.validate(req[property]);
     if (error) {
       res
-        .status(property === 'body' ? UNPROCESSABLE_ENTITY : BAD_REQUEST)
+        .status(property === 'body' ? UNAUTHORIZED : BAD_REQUEST)
         .json({ error: errorResponse(error.details) });
     } else {
       return next();

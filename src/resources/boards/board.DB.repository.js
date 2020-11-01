@@ -34,7 +34,7 @@ const remove = async boardId => {
 };
 
 const update = async (id, board) => {
-  await Board.updateOne({ _id: id }, board);
+  await Board.updateOne({ _id: id }, board, { new: true });
   return await getById(id);
 };
 

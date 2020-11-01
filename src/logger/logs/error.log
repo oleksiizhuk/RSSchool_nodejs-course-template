@@ -5,3 +5,595 @@
 {"message":{"error":{"msg":"Task with id 5f98625ffb2825427f3988dd not found"}},"level":"error","timestamp":"2020-10-27T18:09:36.180Z"}
 {"message":{"error":{"msg":"Task with id 5f98625ffb2825427f3988de not found"}},"level":"error","timestamp":"2020-10-27T18:09:36.182Z"}
 {"message":{"error":{"msg":"Task with id 5f98625ffb2825427f3988df not found"}},"level":"error","timestamp":"2020-10-27T18:09:36.183Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7904eabd107f1c0b8cd8 not found"}},"level":"error","timestamp":"2020-10-31T14:47:33.329Z"}
+{"message":{"error":{"msg":"board was not found id 5f9d7905eabd107f1c0b8ce1"}},"level":"error","timestamp":"2020-10-31T14:47:33.786Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7905eabd107f1c0b8ce8 not found"}},"level":"error","timestamp":"2020-10-31T14:47:34.262Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7905eabd107f1c0b8ce9 not found"}},"level":"error","timestamp":"2020-10-31T14:47:34.263Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7905eabd107f1c0b8ce7 not found"}},"level":"error","timestamp":"2020-10-31T14:47:34.265Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7905eabd107f1c0b8ceb not found"}},"level":"error","timestamp":"2020-10-31T14:47:34.266Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7905eabd107f1c0b8cea not found"}},"level":"error","timestamp":"2020-10-31T14:47:34.269Z"}
+{"message":{"error":{"msg":"Task with id 5f9d793b0c8c0b7f516ad718 not found"}},"level":"error","timestamp":"2020-10-31T14:48:28.581Z"}
+{"message":{"error":{"msg":"board was not found id 5f9d793c0c8c0b7f516ad721"}},"level":"error","timestamp":"2020-10-31T14:48:29.061Z"}
+{"message":{"error":{"msg":"Task with id 5f9d793d0c8c0b7f516ad728 not found"}},"level":"error","timestamp":"2020-10-31T14:48:29.537Z"}
+{"message":{"error":{"msg":"Task with id 5f9d793d0c8c0b7f516ad727 not found"}},"level":"error","timestamp":"2020-10-31T14:48:29.539Z"}
+{"message":{"error":{"msg":"Task with id 5f9d793d0c8c0b7f516ad729 not found"}},"level":"error","timestamp":"2020-10-31T14:48:29.540Z"}
+{"message":{"error":{"msg":"Task with id 5f9d793d0c8c0b7f516ad72a not found"}},"level":"error","timestamp":"2020-10-31T14:48:29.542Z"}
+{"message":{"error":{"msg":"Task with id 5f9d793d0c8c0b7f516ad72b not found"}},"level":"error","timestamp":"2020-10-31T14:48:29.543Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7955db57cf7f7bf0c430 not found"}},"level":"error","timestamp":"2020-10-31T14:48:54.468Z"}
+{"message":{"error":{"msg":"board was not found id 5f9d7956db57cf7f7bf0c439"}},"level":"error","timestamp":"2020-10-31T14:48:54.961Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7957db57cf7f7bf0c43f not found"}},"level":"error","timestamp":"2020-10-31T14:48:55.458Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7957db57cf7f7bf0c442 not found"}},"level":"error","timestamp":"2020-10-31T14:48:55.460Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7957db57cf7f7bf0c440 not found"}},"level":"error","timestamp":"2020-10-31T14:48:55.461Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7957db57cf7f7bf0c441 not found"}},"level":"error","timestamp":"2020-10-31T14:48:55.463Z"}
+{"message":{"error":{"msg":"Task with id 5f9d7957db57cf7f7bf0c443 not found"}},"level":"error","timestamp":"2020-10-31T14:48:55.463Z"}
+{"message":{"error":{"msg":"Task with id 5f9d795da6cae47fa829cb3d not found"}},"level":"error","timestamp":"2020-10-31T14:49:02.302Z"}
+{"message":{"error":{"msg":"board was not found id 5f9d795ea6cae47fa829cb46"}},"level":"error","timestamp":"2020-10-31T14:49:02.813Z"}
+{"message":{"error":{"msg":"Task with id 5f9d795ea6cae47fa829cb4c not found"}},"level":"error","timestamp":"2020-10-31T14:49:03.289Z"}
+{"message":{"error":{"msg":"Task with id 5f9d795ea6cae47fa829cb4d not found"}},"level":"error","timestamp":"2020-10-31T14:49:03.292Z"}
+{"message":{"error":{"msg":"Task with id 5f9d795ea6cae47fa829cb4e not found"}},"level":"error","timestamp":"2020-10-31T14:49:03.294Z"}
+{"message":{"error":{"msg":"Task with id 5f9d795ea6cae47fa829cb50 not found"}},"level":"error","timestamp":"2020-10-31T14:49:03.298Z"}
+{"message":{"error":{"msg":"Task with id 5f9d795ea6cae47fa829cb4f not found"}},"level":"error","timestamp":"2020-10-31T14:49:03.299Z"}
+{"message":{"error":{"msg":"Not found"}},"level":"error","timestamp":"2020-10-31T20:10:13.402Z"}
+{"message":"unhandledRejection error: undefined","level":"error","timestamp":"2020-10-31T22:22:52.459Z"}
+{"message":"unhandledRejection error: undefined","level":"error","timestamp":"2020-10-31T22:24:27.610Z"}
+{"message":"unhandledRejection error: \"Parameter \\\"filter\\\" to findOne() must be an object, got aleks\"","level":"error","timestamp":"2020-10-31T22:24:43.665Z"}
+{"message":"unhandledRejection error: undefined","level":"error","timestamp":"2020-10-31T22:26:37.660Z"}
+{"message":"unhandledRejection error: undefined","level":"error","timestamp":"2020-10-31T22:27:25.050Z"}
+{"message":"unhandledRejection error: undefined","level":"error","timestamp":"2020-10-31T22:28:27.105Z"}
+{"message":"unhandledRejection error: undefined","level":"error","timestamp":"2020-10-31T22:28:45.512Z"}
+{"message":"unhandledRejection error: undefined","level":"error","timestamp":"2020-10-31T22:30:03.368Z"}
+{"message":"unhandledRejection error: undefined","level":"error","timestamp":"2020-10-31T22:30:24.662Z"}
+{"message":{"error":{}},"level":"error","timestamp":"2020-10-31T22:31:31.800Z"}
+{"message":{"error":{}},"level":"error","timestamp":"2020-10-31T22:31:34.743Z"}
+{"message":{"error":{}},"level":"error","timestamp":"2020-10-31T22:31:55.734Z"}
+{"message":{"error":{}},"level":"error","timestamp":"2020-10-31T22:32:41.147Z"}
+{"message":{"error":{"msg":"user was not found"}},"level":"error","timestamp":"2020-10-31T22:33:37.205Z"}
+{"message":"unhandledRejection error: \"user wasn't not found\"","level":"error","timestamp":"2020-10-31T23:09:57.201Z"}
+{"message":"unhandledRejection error: \"user wasn't not found\"","level":"error","timestamp":"2020-10-31T23:10:09.879Z"}
+{"message":"unhandledRejection error: \"user wasn't not found\"","level":"error","timestamp":"2020-10-31T23:10:44.251Z"}
+{"message":{"error":{"msg":"user wasn't not found"}},"level":"error","timestamp":"2020-10-31T23:11:04.596Z"}
+{"message":{"error":{"msg":"user wasn't not found"}},"level":"error","timestamp":"2020-10-31T23:11:09.493Z"}
+{"message":{"error":{"msg":"user wasn't not found"}},"level":"error","timestamp":"2020-10-31T23:11:09.618Z"}
+{"message":{"error":{"msg":"user wasn't not found"}},"level":"error","timestamp":"2020-10-31T23:11:46.475Z"}
+{"message":{"error":{"msg":"Task with id 5f9def5b5d702b886b3d969f not found"}},"level":"error","timestamp":"2020-10-31T23:12:28.506Z"}
+{"message":{"error":{"msg":"board was not found id 5f9def5c5d702b886b3d96a8"}},"level":"error","timestamp":"2020-10-31T23:12:28.973Z"}
+{"message":{"error":{"msg":"Task with id 5f9def5d5d702b886b3d96ae not found"}},"level":"error","timestamp":"2020-10-31T23:12:29.459Z"}
+{"message":{"error":{"msg":"Task with id 5f9def5d5d702b886b3d96b0 not found"}},"level":"error","timestamp":"2020-10-31T23:12:29.461Z"}
+{"message":{"error":{"msg":"Task with id 5f9def5d5d702b886b3d96af not found"}},"level":"error","timestamp":"2020-10-31T23:12:29.463Z"}
+{"message":{"error":{"msg":"Task with id 5f9def5d5d702b886b3d96b2 not found"}},"level":"error","timestamp":"2020-10-31T23:12:29.464Z"}
+{"message":{"error":{"msg":"Task with id 5f9def5d5d702b886b3d96b1 not found"}},"level":"error","timestamp":"2020-10-31T23:12:29.465Z"}
+{"message":{"error":{"msg":"Task with id 5f9defc6332b1388a428d00e not found"}},"level":"error","timestamp":"2020-10-31T23:14:15.094Z"}
+{"message":{"error":{"msg":"board was not found id 5f9defc7332b1388a428d016"}},"level":"error","timestamp":"2020-10-31T23:14:15.538Z"}
+{"message":{"error":{"msg":"Task with id 5f9defc7332b1388a428d01d not found"}},"level":"error","timestamp":"2020-10-31T23:14:16.015Z"}
+{"message":{"error":{"msg":"Task with id 5f9defc7332b1388a428d01e not found"}},"level":"error","timestamp":"2020-10-31T23:14:16.018Z"}
+{"message":{"error":{"msg":"Task with id 5f9defc7332b1388a428d020 not found"}},"level":"error","timestamp":"2020-10-31T23:14:16.019Z"}
+{"message":{"error":{"msg":"Task with id 5f9defc7332b1388a428d01f not found"}},"level":"error","timestamp":"2020-10-31T23:14:16.040Z"}
+{"message":{"error":{"msg":"Task with id 5f9defc7332b1388a428d021 not found"}},"level":"error","timestamp":"2020-10-31T23:14:16.042Z"}
+{"message":{"error":{"msg":"invalid signature"}},"level":"error","timestamp":"2020-11-01T00:16:08.368Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe81b7709289ff81affb not found"}},"level":"error","timestamp":"2020-11-01T00:17:06.713Z"}
+{"message":{"error":{"msg":"board was not found id 5f9dfe82b7709289ff81b000"}},"level":"error","timestamp":"2020-11-01T00:17:07.160Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe83b7709289ff81b006 not found"}},"level":"error","timestamp":"2020-11-01T00:17:07.692Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe83b7709289ff81b005 not found"}},"level":"error","timestamp":"2020-11-01T00:17:07.693Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe83b7709289ff81b003 not found"}},"level":"error","timestamp":"2020-11-01T00:17:07.695Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe83b7709289ff81b002 not found"}},"level":"error","timestamp":"2020-11-01T00:17:07.696Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe83b7709289ff81b004 not found"}},"level":"error","timestamp":"2020-11-01T00:17:07.696Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe8d9cc7588a4eb41000 not found"}},"level":"error","timestamp":"2020-11-01T00:17:18.047Z"}
+{"message":{"error":{"msg":"board was not found id 5f9dfe8e9cc7588a4eb41009"}},"level":"error","timestamp":"2020-11-01T00:17:18.494Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe8e9cc7588a4eb41011 not found"}},"level":"error","timestamp":"2020-11-01T00:17:18.973Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe8e9cc7588a4eb4100f not found"}},"level":"error","timestamp":"2020-11-01T00:17:18.974Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe8e9cc7588a4eb41012 not found"}},"level":"error","timestamp":"2020-11-01T00:17:18.975Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe8e9cc7588a4eb41010 not found"}},"level":"error","timestamp":"2020-11-01T00:17:18.978Z"}
+{"message":{"error":{"msg":"Task with id 5f9dfe8e9cc7588a4eb41013 not found"}},"level":"error","timestamp":"2020-11-01T00:17:18.978Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.120Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.125Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.128Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.131Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.134Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.139Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.142Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.149Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.184Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.187Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.190Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.195Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.198Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.201Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.204Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.207Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.211Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.247Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.251Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.255Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.258Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.261Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.265Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.269Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.272Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:08.274Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.015Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.016Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.018Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.021Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.022Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.024Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.027Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.028Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.030Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.032Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.034Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.036Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.037Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.038Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.040Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.043Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.044Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.150Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.153Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.158Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.161Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.164Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.167Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.170Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.173Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:49:45.176Z"}
+{"message":{"error":{"msg":"board was not found id 5f9e149a0118398bcffe6f6b"}},"level":"error","timestamp":"2020-11-01T01:51:23.244Z"}
+{"message":{"error":{"msg":"Task with id 5f9e149b0118398bcffe6f6f not found"}},"level":"error","timestamp":"2020-11-01T01:51:23.983Z"}
+{"message":{"error":{"msg":"Task with id 5f9e149b0118398bcffe6f70 not found"}},"level":"error","timestamp":"2020-11-01T01:51:23.984Z"}
+{"message":{"error":{"msg":"Task with id 5f9e149b0118398bcffe6f6e not found"}},"level":"error","timestamp":"2020-11-01T01:51:23.986Z"}
+{"message":{"error":{"msg":"Task with id 5f9e149b0118398bcffe6f71 not found"}},"level":"error","timestamp":"2020-11-01T01:51:23.987Z"}
+{"message":{"error":{"msg":"Task with id 5f9e149b0118398bcffe6f6d not found"}},"level":"error","timestamp":"2020-11-01T01:51:23.988Z"}
+{"message":{"error":{"msg":"Task with id 5f9e149e0118398bcffe6f7b not found"}},"level":"error","timestamp":"2020-11-01T01:51:27.199Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"boards\""}},"level":"error","timestamp":"2020-11-01T01:51:27.517Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"boards\""}},"level":"error","timestamp":"2020-11-01T01:51:27.587Z"}
+{"message":{"error":{"msg":"id 12345 Not Valid"}},"level":"error","timestamp":"2020-11-01T01:51:27.591Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"tasks\""}},"level":"error","timestamp":"2020-11-01T01:51:27.918Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"tasks\""}},"level":"error","timestamp":"2020-11-01T01:51:27.990Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"tasks\""}},"level":"error","timestamp":"2020-11-01T01:51:27.994Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:51:52.854Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:51:52.859Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:51:52.863Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:51:52.866Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:51:52.869Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:51:52.872Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:51:52.874Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T01:51:52.881Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"tasks\""}},"level":"error","timestamp":"2020-11-01T01:51:52.981Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"boards\""}},"level":"error","timestamp":"2020-11-01T01:51:53.042Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"tasks\""}},"level":"error","timestamp":"2020-11-01T01:51:53.097Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"tasks\""}},"level":"error","timestamp":"2020-11-01T01:51:53.102Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"boards\""}},"level":"error","timestamp":"2020-11-01T01:51:53.129Z"}
+{"message":{"error":{"msg":"id 12345 Not Valid"}},"level":"error","timestamp":"2020-11-01T01:51:53.133Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14b95ee4928bed8913d6 not found"}},"level":"error","timestamp":"2020-11-01T01:51:53.851Z"}
+{"message":{"error":{"msg":"board was not found id 5f9e14b95ee4928bed8913db"}},"level":"error","timestamp":"2020-11-01T01:51:54.271Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14ba5ee4928bed8913dd not found"}},"level":"error","timestamp":"2020-11-01T01:51:54.743Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14ba5ee4928bed8913de not found"}},"level":"error","timestamp":"2020-11-01T01:51:54.747Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14ba5ee4928bed8913df not found"}},"level":"error","timestamp":"2020-11-01T01:51:54.748Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14ba5ee4928bed8913e1 not found"}},"level":"error","timestamp":"2020-11-01T01:51:54.749Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14ba5ee4928bed8913e0 not found"}},"level":"error","timestamp":"2020-11-01T01:51:54.751Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"boards\""}},"level":"error","timestamp":"2020-11-01T01:52:54.138Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"tasks\""}},"level":"error","timestamp":"2020-11-01T01:52:54.260Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"boards\""}},"level":"error","timestamp":"2020-11-01T01:52:54.461Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T01:52:54.482Z"}
+{"message":{"error":{"msg":"id 12345 Not Valid"}},"level":"error","timestamp":"2020-11-01T01:52:54.511Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T01:52:54.513Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"tasks\""}},"level":"error","timestamp":"2020-11-01T01:52:54.518Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T01:52:54.548Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T01:52:54.549Z"}
+{"message":{"error":{"msg":"Cast to ObjectId failed for value \"12345\" at path \"_id\" for model \"tasks\""}},"level":"error","timestamp":"2020-11-01T01:52:54.575Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T01:52:54.577Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T01:52:54.579Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T01:52:54.580Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T01:52:54.638Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14f6f331cc8c238657f6 not found"}},"level":"error","timestamp":"2020-11-01T01:52:55.335Z"}
+{"message":{"error":{"msg":"board was not found id 5f9e14f7f331cc8c238657fc"}},"level":"error","timestamp":"2020-11-01T01:52:55.765Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14f7f331cc8c238657fe not found"}},"level":"error","timestamp":"2020-11-01T01:52:56.253Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14f7f331cc8c238657ff not found"}},"level":"error","timestamp":"2020-11-01T01:52:56.254Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14f7f331cc8c23865801 not found"}},"level":"error","timestamp":"2020-11-01T01:52:56.255Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14f7f331cc8c23865800 not found"}},"level":"error","timestamp":"2020-11-01T01:52:56.256Z"}
+{"message":{"error":{"msg":"Task with id 5f9e14f7f331cc8c23865802 not found"}},"level":"error","timestamp":"2020-11-01T01:52:56.258Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T02:07:03.972Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T02:08:05.556Z"}
+{"message":{"error":{"msg":"Cannot set headers after they are sent to the client"}},"level":"error","timestamp":"2020-11-01T02:08:56.567Z"}
+{"message":{"error":{"msg":"data and hash arguments required"}},"level":"error","timestamp":"2020-11-01T03:02:32.508Z"}
+{"message":{"error":{"msg":"data and hash arguments required"}},"level":"error","timestamp":"2020-11-01T03:02:48.815Z"}
+{"message":{"error":{"msg":"data and hash arguments required"}},"level":"error","timestamp":"2020-11-01T03:03:23.082Z"}
+{"message":{"error":{"msg":"data and hash arguments required"}},"level":"error","timestamp":"2020-11-01T03:03:24.037Z"}
+{"message":{"error":{"msg":"data and hash arguments required"}},"level":"error","timestamp":"2020-11-01T03:03:27.110Z"}
+{"message":{"error":{"msg":"data and hash arguments required"}},"level":"error","timestamp":"2020-11-01T03:03:38.377Z"}
+{"message":{"error":{"msg":"user wasn't not found"}},"level":"error","timestamp":"2020-11-01T03:06:25.232Z"}
+{"message":{"error":{"msg":"user wasn't not found"}},"level":"error","timestamp":"2020-11-01T03:06:41.529Z"}
+{"message":{"error":{"msg":"user wasn't not found"}},"level":"error","timestamp":"2020-11-01T08:22:50.258Z"}
+{"message":{"error":{"msg":"user wasn't not found"}},"level":"error","timestamp":"2020-11-01T08:22:55.095Z"}
+{"message":{"error":{"msg":"user wasn't not found"}},"level":"error","timestamp":"2020-11-01T08:22:58.534Z"}
+{"message":{"error":{"msg":"users validation failed: password: Cast to string failed for value \"Promise { <pending> }\" at path \"password\""}},"level":"error","timestamp":"2020-11-01T08:46:09.297Z"}
+{"message":{"error":{"msg":"wrong login or password"}},"level":"error","timestamp":"2020-11-01T09:13:10.684Z"}
+{"message":{"error":{"msg":"hashPassword is not a function"}},"level":"error","timestamp":"2020-11-01T09:26:44.824Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:16.830Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:16.834Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:16.838Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:16.841Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:16.844Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:16.846Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:16.849Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:16.851Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:16.854Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.148Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.225Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.299Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.371Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.445Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.595Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.597Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.599Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.601Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.604Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.606Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.608Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.610Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:28:17.612Z"}
+{"message":{"error":{"msg":"board was not found id 5f9e82fa3626629431f3ece4"}},"level":"error","timestamp":"2020-11-01T09:42:18.726Z"}
+{"message":{"error":{"msg":"Task with id 5f9e82fa3626629431f3ece6 not found"}},"level":"error","timestamp":"2020-11-01T09:42:19.513Z"}
+{"message":{"error":{"msg":"Task with id 5f9e82fa3626629431f3ecea not found"}},"level":"error","timestamp":"2020-11-01T09:42:19.520Z"}
+{"message":{"error":{"msg":"Task with id 5f9e82fa3626629431f3ece8 not found"}},"level":"error","timestamp":"2020-11-01T09:42:19.521Z"}
+{"message":{"error":{"msg":"Task with id 5f9e82fa3626629431f3ece9 not found"}},"level":"error","timestamp":"2020-11-01T09:42:19.522Z"}
+{"message":{"error":{"msg":"Task with id 5f9e82fa3626629431f3ece7 not found"}},"level":"error","timestamp":"2020-11-01T09:42:19.523Z"}
+{"message":{"error":{"msg":"Task with id 5f9e82fd3626629431f3ecf4 not found"}},"level":"error","timestamp":"2020-11-01T09:42:22.593Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.633Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.636Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.641Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.644Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.647Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.650Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.653Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.656Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.658Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.765Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.768Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.780Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.785Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.786Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.788Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.791Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.793Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.796Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.799Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.864Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:37.940Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:38.012Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:42:38.094Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:13.931Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:13.934Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:13.937Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:13.942Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:13.945Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:13.947Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:13.949Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:13.952Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:13.954Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.062Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.065Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.070Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.072Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.075Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.077Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.081Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.083Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.085Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.344Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.420Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.496Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.571Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:45:14.647Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.174Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.178Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.181Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.186Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.190Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.194Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.198Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.201Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.203Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.235Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.300Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.304Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.308Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.311Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.314Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.317Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.319Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.322Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.325Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.430Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.514Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.597Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:49:00.684Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:16.825Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:16.829Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:16.833Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:16.839Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:16.844Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:16.848Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:16.851Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:16.855Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:16.859Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.135Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.145Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.148Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.154Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.166Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.170Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.174Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.178Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.181Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.184Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.214Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.290Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.364Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:53:17.441Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.872Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.877Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.883Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.890Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.898Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.903Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.906Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.910Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.914Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.932Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.935Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.940Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.949Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.963Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.967Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.971Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.976Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:23.980Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:24.134Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:24.209Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:24.282Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:24.355Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:54:24.430Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:33.958Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:33.962Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:33.968Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:33.973Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:33.978Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:33.981Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:33.985Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:33.988Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:33.991Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.091Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.094Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.098Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.103Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.108Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.112Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.115Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.119Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.121Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.367Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.447Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.519Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.594Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T09:56:34.671Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.832Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.837Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.844Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.850Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.857Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.861Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.864Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.868Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.870Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.889Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.893Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.898Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.902Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.907Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.913Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.918Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.923Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:15.926Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:16.192Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:16.272Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:16.349Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:16.433Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:00:16.511Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.917Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.920Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.924Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.929Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.933Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.942Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.946Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.949Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.955Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.978Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.981Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.986Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.990Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.995Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:49.998Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:50.002Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:50.006Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:50.010Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:50.267Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:50.342Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:50.415Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:50.488Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:06:50.567Z"}
+{"message":{"error":{"msg":"Task with id 5f9e88cdeb86b39757fd3990 not found"}},"level":"error","timestamp":"2020-11-01T10:07:10.907Z"}
+{"message":{"error":{"msg":"board was not found id 5f9e88cfeb86b39757fd3999"}},"level":"error","timestamp":"2020-11-01T10:07:11.492Z"}
+{"message":{"error":{"msg":"Task with id 5f9e88cfeb86b39757fd399f not found"}},"level":"error","timestamp":"2020-11-01T10:07:11.988Z"}
+{"message":{"error":{"msg":"Task with id 5f9e88cfeb86b39757fd39a3 not found"}},"level":"error","timestamp":"2020-11-01T10:07:11.989Z"}
+{"message":{"error":{"msg":"Task with id 5f9e88cfeb86b39757fd39a2 not found"}},"level":"error","timestamp":"2020-11-01T10:07:11.992Z"}
+{"message":{"error":{"msg":"Task with id 5f9e88cfeb86b39757fd39a0 not found"}},"level":"error","timestamp":"2020-11-01T10:07:11.993Z"}
+{"message":{"error":{"msg":"Task with id 5f9e88cfeb86b39757fd39a1 not found"}},"level":"error","timestamp":"2020-11-01T10:07:11.994Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.585Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.598Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.608Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.619Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.624Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.629Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.634Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.643Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.647Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.649Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.654Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.660Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.665Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.671Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.674Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.678Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.682Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.685Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.907Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:58.986Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:59.064Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:59.134Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:08:59.212Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.280Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.286Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.291Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.294Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.297Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.301Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.304Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.310Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.345Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.349Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.356Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.360Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.363Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.366Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.370Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.375Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.377Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.405Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.409Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.412Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.419Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.424Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.428Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.431Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.434Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:13:44.437Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.382Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.389Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.395Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.399Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.403Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.406Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.410Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.413Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.419Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.445Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.448Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.454Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.460Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.464Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.468Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.472Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.476Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.479Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.507Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.514Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.520Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.523Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.527Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.532Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.535Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:16:38.543Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.589Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.593Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.597Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.602Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.605Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.608Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.611Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.614Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.616Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.656Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.662Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.666Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.669Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.672Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.675Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.677Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.684Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.714Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.719Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.724Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.727Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.731Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.734Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.737Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.740Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:05.742Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.578Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.586Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.591Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.594Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.598Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.602Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.606Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.614Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.649Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.653Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.659Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.664Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.670Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.671Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.673Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.675Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.677Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.678Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.680Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.684Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.685Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.689Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.692Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.694Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.700Z"}
+{"message":{"error":{"msg":"jwt malformed"}},"level":"error","timestamp":"2020-11-01T10:22:25.704Z"}
+{"message":{"error":{"msg":"Task with id 5f9e8c94aea84d98cfa44756 not found"}},"level":"error","timestamp":"2020-11-01T10:23:17.595Z"}
+{"message":{"error":{"msg":"board was not found id 5f9e8c96aea84d98cfa4475e"}},"level":"error","timestamp":"2020-11-01T10:23:18.635Z"}
+{"message":{"error":{"msg":"Task with id 5f9e8c96aea84d98cfa44765 not found"}},"level":"error","timestamp":"2020-11-01T10:23:19.106Z"}
+{"message":{"error":{"msg":"Task with id 5f9e8c96aea84d98cfa44766 not found"}},"level":"error","timestamp":"2020-11-01T10:23:19.108Z"}
+{"message":{"error":{"msg":"Task with id 5f9e8c96aea84d98cfa44767 not found"}},"level":"error","timestamp":"2020-11-01T10:23:19.109Z"}
+{"message":{"error":{"msg":"Task with id 5f9e8c96aea84d98cfa44768 not found"}},"level":"error","timestamp":"2020-11-01T10:23:19.115Z"}
+{"message":{"error":{"msg":"Task with id 5f9e8c96aea84d98cfa44764 not found"}},"level":"error","timestamp":"2020-11-01T10:23:19.119Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea12481b44b99204650fb not found"}},"level":"error","timestamp":"2020-11-01T11:51:02.186Z"}
+{"message":{"error":{"msg":"board was not found id 5f9ea12681b44b9920465103"}},"level":"error","timestamp":"2020-11-01T11:51:02.930Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea12781b44b992046510b not found"}},"level":"error","timestamp":"2020-11-01T11:51:04.213Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea12781b44b992046510c not found"}},"level":"error","timestamp":"2020-11-01T11:51:04.214Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea12781b44b992046510a not found"}},"level":"error","timestamp":"2020-11-01T11:51:04.507Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea12781b44b9920465108 not found"}},"level":"error","timestamp":"2020-11-01T11:51:04.512Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea12781b44b9920465109 not found"}},"level":"error","timestamp":"2020-11-01T11:51:04.513Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea18ecce36f9c3acd21f7 not found"}},"level":"error","timestamp":"2020-11-01T11:52:47.864Z"}
+{"message":{"error":{"msg":"board was not found id 5f9ea18fcce36f9c3acd21ff"}},"level":"error","timestamp":"2020-11-01T11:52:48.303Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea190cce36f9c3acd2209 not found"}},"level":"error","timestamp":"2020-11-01T11:52:49.022Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea190cce36f9c3acd220a not found"}},"level":"error","timestamp":"2020-11-01T11:52:49.023Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea190cce36f9c3acd2206 not found"}},"level":"error","timestamp":"2020-11-01T11:52:49.025Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea190cce36f9c3acd2207 not found"}},"level":"error","timestamp":"2020-11-01T11:52:49.026Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea190cce36f9c3acd2208 not found"}},"level":"error","timestamp":"2020-11-01T11:52:49.299Z"}
+{"message":{"error":{"msg":"board was not found id 5f9ea1e4a3df139cb4e900e7"}},"level":"error","timestamp":"2020-11-01T11:54:13.234Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1e5a3df139cb4e900eb not found"}},"level":"error","timestamp":"2020-11-01T11:54:14.588Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1e5a3df139cb4e900ec not found"}},"level":"error","timestamp":"2020-11-01T11:54:14.589Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1e5a3df139cb4e900ea not found"}},"level":"error","timestamp":"2020-11-01T11:54:14.590Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1e5a3df139cb4e900e9 not found"}},"level":"error","timestamp":"2020-11-01T11:54:14.592Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1e5a3df139cb4e900ed not found"}},"level":"error","timestamp":"2020-11-01T11:54:14.593Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1fcd4874e9cd31f81bd not found"}},"level":"error","timestamp":"2020-11-01T11:54:37.922Z"}
+{"message":{"error":{"msg":"board was not found id 5f9ea1fed4874e9cd31f81c6"}},"level":"error","timestamp":"2020-11-01T11:54:38.750Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1fed4874e9cd31f81cc not found"}},"level":"error","timestamp":"2020-11-01T11:54:39.634Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1fed4874e9cd31f81cd not found"}},"level":"error","timestamp":"2020-11-01T11:54:39.635Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1fed4874e9cd31f81ce not found"}},"level":"error","timestamp":"2020-11-01T11:54:39.636Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1fed4874e9cd31f81cf not found"}},"level":"error","timestamp":"2020-11-01T11:54:39.643Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea1fed4874e9cd31f81d0 not found"}},"level":"error","timestamp":"2020-11-01T11:54:39.644Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea20afe810d9d0003a2d8 not found"}},"level":"error","timestamp":"2020-11-01T11:54:51.875Z"}
+{"message":{"error":{"msg":"board was not found id 5f9ea20cfe810d9d0003a2e0"}},"level":"error","timestamp":"2020-11-01T11:54:52.703Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea20dfe810d9d0003a2e7 not found"}},"level":"error","timestamp":"2020-11-01T11:54:54.221Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea20dfe810d9d0003a2e6 not found"}},"level":"error","timestamp":"2020-11-01T11:54:54.224Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea20dfe810d9d0003a2e8 not found"}},"level":"error","timestamp":"2020-11-01T11:54:54.228Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea20dfe810d9d0003a2e9 not found"}},"level":"error","timestamp":"2020-11-01T11:54:54.229Z"}
+{"message":{"error":{"msg":"Task with id 5f9ea20dfe810d9d0003a2ea not found"}},"level":"error","timestamp":"2020-11-01T11:54:54.231Z"}
